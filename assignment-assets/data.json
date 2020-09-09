@@ -12,7 +12,7 @@
   "tiles": [
     {
       "title": "I Imagined that Things Were Speaking",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/tiles-image-1.jpg",
+      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-1.jpg",
       "image-alt": "I Imagined that Things Were Speaking",
       "date": "29 August 2019",
       "author": "Jams Bonham",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Mounting parts in metal and wood for glass objects",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/tiles-image-2.jpg",
+      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-2.jpg",
       "image-alt": "",
       "date": "18 August 2020",
       "author": "M!kkel Rommelhoff",
@@ -38,7 +38,7 @@
     },
     {
       "title": "Thanks to the system - from logic to physics",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/tiles-image-3.jpg",
+      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-3.jpg",
       "image-alt": "",
       "date": "3 Feburary 2020",
       "author": "",
@@ -51,7 +51,7 @@
     },
     {
       "title": "I Imagined that Things Were Speaking",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/tiles-image-4.jpg",
+      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-4.jpg",
       "image-alt": "",
       "date": "18 August 2019",
       "author": "Philio Rosing",
@@ -64,7 +64,7 @@
     },
     {
       "title": "Yellow forever and some lines too",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/tiles-image-5.jpg",
+      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-5.jpg",
       "image-alt": "Yellow forever and some lines too",
       "date": "29 August 2019",
       "author": "Andr\u00e9 Kallehauge",
@@ -77,7 +77,7 @@
     },
     {
       "title": "Beware when you go to Mars for traveling",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/tiles-image-6.jpg",
+      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-6.jpg",
       "image-alt": "Beware when you go to Mars for traveling",
       "date": "29 August 2019",
       "author": "",
@@ -106,7 +106,7 @@
     "description": "This section is actually a little extra that can be added if you feel confident while working and the time aint sprinting.",
     "href_description": "#",
     "href": "imagewide-5",
-    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/banner.jpg",
+    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/banner.jpg",
     "image-alt": "This banner is for real",
     "appearances": {
       "color-scheme": "secondary",
@@ -115,7 +115,7 @@
   },
   "imagewide": {
     "title": "",
-    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/image-full-width.png",
+    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/image-full-width.png",
     "image-alt": "Find us at the center of the universe",
     "href": "",
     "appearances": {
@@ -125,7 +125,7 @@
   },
   "imagetext": {
     "title": "We use tools like NPM/Gulp/Webpack to preprocess files and PostCSS for some mean, lean, killing machine code and React JS is taking over WordPress one step at a time. ",
-    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assets/images/text-media-right.png",
+    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/text-media-right.png",
     "image-alt": "Find us at the center of the universe",
     "href": "https://github.com/rommel-dk/front-end-test/compare",
     "href-text": "Pull request",
