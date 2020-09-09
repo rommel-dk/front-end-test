@@ -7,7 +7,7 @@ This assignment is a way for us to assess that you're able to translate design i
 
 ## The assignment
 
-The assignment is - in short - to convert  the [master-the-front-end.pdf](https://raw.githubusercontent.com/rommel-dk/front-end-test/master/design/master-the-front-end.pdf) design to HTML/CSS (we have also provided the design as a [Figma](http://figma.com/) file if you want to get a few more details).
+The assignment is - in short - to convert  the [design/master-the-front-end.pdf](https://raw.githubusercontent.com/rommel-dk/front-end-test/master/design/master-the-front-end.pdf) design to HTML/CSS (we have also provided the design as a [Figma](http://figma.com/) file if you want to get a few more details).
 
 There are no strict "rules" for the execution of the assignment except that it should be responsive and delivered to us as a pull-request. The ultimate goal is to create the design as lean, neat and simple as possible. 
 
