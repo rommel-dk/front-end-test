@@ -2,7 +2,7 @@
   "hero-1": {
     "title": "Master the front-end with finesse",
     "description": "The assignment is supposed to be executed as simple as possible. Code the template in HTML/CSS and try to avoid 3. party frameworks as much as possible. Creating the page with React components will grant extra megamate bonus points.",
-    "href": "#tiles-2",
+    "href": "#tiles",
     "appearances": {
       "inner-width": "normal",
       "href-block": true,
@@ -105,12 +105,12 @@
     "year": "2018",
     "description": "This section is actually a little extra that can be added if you feel confident while working and the time aint sprinting.",
     "href_description": "#",
-    "href": "imagewide-5",
+    "href": "imagewide",
     "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/banner.jpg",
     "image-alt": "This banner is for real",
     "appearances": {
       "color-scheme": "secondary",
-      "href-block-next": "imagewide-5"
+      "href-block-next": "imagewide"
     }
   },
   "imagewide": {
