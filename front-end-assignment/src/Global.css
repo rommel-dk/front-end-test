@@ -1,0 +1,74 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/*******************/
+/* Typography */
+/*******************/
+
+/* Medium */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCF-Medium.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* DemiBold */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCFv2-DemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCFv2-Bold.ttf);
+  font-style: italic;
+  font-weight: 700;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCF-ExtraBoldOblique.ttf);
+  font-style: italic;
+  font-weight: 800;
+}
+
+
+
+h1{
+  font-family: 'articulatcf';
+  font-weight: 600;
+  font-size: 15rem;
+}
+
+h2{
+  font-family: 'articulatcf';
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+h3{
+
+}
+
+
+p{
+  font-family: 'articulatcf';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
