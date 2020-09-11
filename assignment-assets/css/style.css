@@ -1,97 +1,52 @@
+/* variables*/
+:root {
+  --primary: #f54e52;
+  --secondary: #7df7ff;
+}
 /* reset */
-html,
 body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 p,
-blockquote,
-pre,
 a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
 ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+li {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
+  text-decoration: none;
 }
 
 /* base styles */
+body {
+  background-color: #fff;
+  overflow-x: hidden;
+  font-family: "ArticulatCFv2-DemiBold";
+  font-size: 14px;
+}
 
 /* fonts */
+@font-face {
+  font-family: "ArticulatCFv2-DemiBold";
+  src: url("../fonts/ArticulatCFv2-DemiBold.ttf");
+}
 
+@font-face {
+  font-family: "ArticulatCF-ExtraBold";
+  src: url("../fonts/ArticulatCF-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "ArticulatCF-Medium";
+  src: url("../fonts/ArticulatCF-Medium.ttf");
+}
+h1 {
+  font-family: "ArticulatCF-ExtraBold";
+  font-size: 3em;
+}
+h2 {
+  font-size: 4em;
+}
 /* mobile styles */
 
 /* small tablet styles */
@@ -100,8 +55,26 @@ video {
 
 /* large tablet styles */
 @media screen and (min-width: 960px) {
+  body {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 5.4em;
+  }
+  h2 {
+    font-size: 5.5em;
+  }
 }
 
 /* desktop styles */
 @media screen and (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 6.4em;
+  }
+  h2 {
+    font-size: 8.4em;
+  }
 }
