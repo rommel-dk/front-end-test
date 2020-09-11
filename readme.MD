@@ -37,3 +37,4 @@ _** Feel free to display your own creativity in the assignment. An example of th
 ### Skip the line
 
 _*You can skip the line and go straight to an interview if you're able to re-create the design in a WordPress website using React based Gutenberg blocks (red: not ACF blocks or similar) while maintaning a good structure and pretty code.*_
+
