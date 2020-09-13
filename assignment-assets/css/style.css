@@ -23,6 +23,7 @@ body {
   overflow-x: hidden;
   font-family: "ArticulatCFv2-DemiBold";
   font-size: 14px;
+  min-width: 320px;
 }
 
 /* fonts */
@@ -42,15 +43,50 @@ body {
 }
 h1 {
   font-family: "ArticulatCF-ExtraBold";
-  font-size: 3em;
+  font-size: 3.5em;
 }
 h2 {
   font-size: 4em;
 }
 /* mobile styles */
 
+/*--- Header ---*/
+.showcase-image {
+  height: 40vh;
+}
+.showcase-image_inner {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/showcase-bg.png");
+  background-size: cover;
+  background-position: -35px 0;
+  background-repeat: no-repeat;
+}
+.showcase-description {
+  padding: 0 1.5em 0 1.5em;
+  position: relative;
+  top: -40px;
+  max-width: 400px;
+}
+
 /* small tablet styles */
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 30rem) {
+  .showcase-image {
+    height: 50vh;
+  }
+  .showcase-description {
+    padding: 0 1.5em 0 2.5em;
+    top: -50px;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 30rem) {
+  .showcase-image {
+    height: 70vh;
+  }
+  .showcase-description {
+    padding: 0 1.5em 0 1.5em;
+    top: -40px;
+  }
 }
 
 /* large tablet styles */
@@ -67,7 +103,7 @@ h2 {
 }
 
 /* desktop styles */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 48rem) {
   body {
     font-size: 18px;
   }
@@ -76,5 +112,12 @@ h2 {
   }
   h2 {
     font-size: 8.4em;
+  }
+  .showcase-image {
+    height: 70vh;
+  }
+  .showcase-description {
+    padding: 0 1.5em 0 4.5em;
+    top: -70px;
   }
 }

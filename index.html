@@ -7,18 +7,14 @@
     <title>Front-end Test for Rommel</title>
   </head>
   <body>
-    <main>
-      <section class="banner">
-        <h1>Master the front-end with finesse</h1>
-        <p>
-          The assignment is supposed to be executed as simple as possible. Code
-          the template in HTML/CSS and try to avoid 3. party frameworks as much
-          as possible. Creating the page with React components will grant extra
-          megamate bonus points.
-        </p>
-      </section>
+    <!-- Header -->
+    <header>
+      <div id="showcase"></div>
+    </header>
 
-      <section class="articles">
+    <!-- Main Area-->
+    <main>
+      <section class="grid articles-section">
         <div id="article-list">
           <div>
             <img src="./assignment-assets/images/tiles-image-1.jpg" alt="" />
@@ -80,6 +76,12 @@
     ></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <script type="text/babel"></script>
+    <!-- React components -->
+    <script type="text/babel" src="./components/Showcase.js"></script>
+    <!-- <script type="text/babel" src="CoolButton.js"></script> -->
+
+    <script type="text/babel">
+      ReactDOM.render(<Showcase />, document.querySelector("#showcase"));
+    </script>
   </body>
 </html>
