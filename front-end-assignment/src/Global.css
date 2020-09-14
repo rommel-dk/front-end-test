@@ -6,8 +6,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --action-color: #F54E52;
+  --primary-color: #000000;;
+  --secondary-color: #DABABA;
+
+  --light-blue-color: #7DF7FF;
+  --blue-color:#4E7FFA;
+  --yellow-color: #FFF064;
+}
+
 html{
   font-size: 62.5%;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 /*******************/
@@ -49,11 +63,23 @@ html{
 
 
 
-h1{
-  font-family: 'articulatcf';
-  font-weight: 600;
-  font-size: 15rem;
+/* Media Queries/Breakpoints 
+******************************
+
+ @media (min-width: 480px) {
+ 
 }
+@media (min-width: 768px) {
+ 
+}
+@media (min-width: 992px) {
+ 
+}
+@media (min-width: 1200px) {
+
+} 
+******************************/
+
 
 h2{
   font-family: 'articulatcf';
@@ -71,4 +97,12 @@ p{
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2rem;
+}
+
+/* Utility Classes */
+
+.u-h-wrapper{
+  padding: 0 2rem;
+  max-width: 160rem;
+  margin: auto;
 }
