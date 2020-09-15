@@ -1,6 +1,6 @@
 function Showcase(props) {
   return (
-    <div className="showcase-wrapper">
+    <div className="showcase-wrapper grid">
       <div className="showcase-image">
         <div className="showcase-image_inner"></div>
       </div>
@@ -9,6 +9,7 @@ function Showcase(props) {
         the template in HTML/CSS and try to avoid 3. party frameworks as much as
         possible. Creating the page with React components will grant extra
         megamate bonus points.
+        <div className="showcase-arrow"></div>
       </p>
     </div>
   );
