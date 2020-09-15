@@ -69,6 +69,79 @@ h2 {
   max-width: 400px;
 }
 
+/*--- Card ---*/
+.card-wrapp {
+  padding: 0 15px;
+  overflow: hidden;
+  column-count: 1;
+  column-gap: 2em;
+}
+.card-wrapp a {
+  color: #000;
+}
+.card-wrapp::before {
+  display: inline-block;
+  width: 125px;
+  height: auto;
+  content: url("../images/arrow.png");
+  transform: scale(0.6);
+  position: relative;
+  left: -23px;
+  top: -10px;
+}
+.card {
+  position: relative;
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
+.card-img {
+  width: 100%;
+}
+.card-date {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  padding: 10px;
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.card-author {
+  display: block;
+  color: #dababa;
+}
+
+.card-arrow {
+  position: relative;
+  width: 58px;
+  height: 3px;
+  background-color: #f54e52;
+}
+
+.card-arrow::after,
+.card-arrow::before {
+  content: "";
+  position: absolute;
+  width: 22%;
+  height: 3px;
+  right: -3px;
+  background-color: #f54e52;
+}
+.card-arrow::before {
+  top: 3px;
+  transform: rotate(-45deg);
+}
+.card-arrow::after {
+  top: -4px;
+  transform: rotate(45deg);
+}
+
 /* small tablet styles */
 @media screen and (min-width: 30rem) {
   .showcase-image {

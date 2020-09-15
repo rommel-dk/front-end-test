@@ -1,139 +1,80 @@
-{
-  "hero-1": {
-    "title": "Master the front-end with finesse",
-    "description": "The assignment is supposed to be executed as simple as possible. Code the template in HTML/CSS and try to avoid 3. party frameworks as much as possible. Creating the page with React components will grant extra megamate bonus points.",
-    "href": "#tiles",
-    "appearances": {
-      "inner-width": "normal",
-      "href-block": true,
-      "color-scheme": "primary"
-    }
+[
+  {
+    "source": {
+      "id": null,
+      "name": "ESPN"
+    },
+    "author": "Greg Wyshynski",
+    "title": "Built to win now, Vegas Golden Knights, the West's top seed, fail to reach Stanley Cup Final - ESPN",
+    "description": "A penalty in overtime proved costly for Vegas on Monday, as Dallas secured its first berth in the Stanley Cup Final since 2000, leaving the top-seeded Golden Knights to wonder where it all went wrong.",
+    "url": "https://www.espn.com/nfl/story/_/id/29889085/built-win-now-vegas-golden-knights-west-top-seed-fail-reach-stanley-cup-final",
+    "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0915%2Fr745818_1296x729_16%2D9.jpg",
+    "publishedAt": "2020-09-15T04:46:11Z",
+    "content": "Coach Peter DeBoer was speechless as he walked into the Vegas Golden Knights' dressing room on Monday after Game 5 of the NHL's Western Conference finals.\r\n\"I didn't prepare something to say to them … [+5284 chars]"
   },
-  "tiles": [
-    {
-      "title": "I Imagined that Things Were Speaking",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-1.jpg",
-      "image-alt": "I Imagined that Things Were Speaking",
-      "date": "29 August 2019",
-      "author": "Jams Bonham",
-      "author-href": "#",
-      "type": "Project",
-      "href": "#",
-      "appearances": {
-        "color-scheme": "alt"
-      }
+  {
+    "source": {
+      "id": null,
+      "name": "NBCSports.com"
     },
-    {
-      "title": "Mounting parts in metal and wood for glass objects",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-2.jpg",
-      "image-alt": "",
-      "date": "18 August 2020",
-      "author": "M!kkel Rommelhoff",
-      "author-href": "#",
-      "type": "Project",
-      "href": "#",
-      "appearances": {
-        "color-scheme": "alt"
-      }
-    },
-    {
-      "title": "Thanks to the system - from logic to physics",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-3.jpg",
-      "image-alt": "",
-      "date": "3 Feburary 2020",
-      "author": "",
-      "author-href": "",
-      "type": "Another project",
-      "href": "#",
-      "appearances": {
-        "color-scheme": "alt"
-      }
-    },
-    {
-      "title": "I Imagined that Things Were Speaking",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-4.jpg",
-      "image-alt": "",
-      "date": "18 August 2019",
-      "author": "Philio Rosing",
-      "author-href": "#",
-      "type": "Anonymous",
-      "href": "#",
-      "appearances": {
-        "color-scheme": "alt"
-      }
-    },
-    {
-      "title": "Yellow forever and some lines too",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-5.jpg",
-      "image-alt": "Yellow forever and some lines too",
-      "date": "29 August 2019",
-      "author": "Andr\u00e9 Kallehauge",
-      "author-href": "#",
-      "type": "Project",
-      "href": "#",
-      "appearances": {
-        "color-scheme": "alt"
-      }
-    },
-    {
-      "title": "Beware when you go to Mars for traveling",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-6.jpg",
-      "image-alt": "Beware when you go to Mars for traveling",
-      "date": "29 August 2019",
-      "author": "",
-      "type": "Marmor",
-      "href": "#",
-      "appearances": {
-        "color-scheme": "alt"
-      }
-    }
-  ],
-  "hero-2": {
-    "title": "Your chance",
-    "subtitle": "Get on the skill train now",
-    "description": "The assignment must be delivered as a pull request to the assignment repository and we appreciate running commits so we can see how you go from our small layout to a final awesome product.",
-    "href": "#",
-    "appearances": {
-      "inner-width": "narrow",
-      "color-scheme": "secondary"
-    }
+    "author": null,
+    "title": "Shanahan reveals where 49ers' final drive in loss went wrong - Comcast SportsNet Bay Area",
+    "description": "There were several plays that Jimmy Garoppolo wanted back from the 49ers' 24-20 loss to the Arizona Cardinals on Sunday, but two stood out the most.\n \nWith 1:21 left in the game, the 49ers had a first down on the Cardinals' 21-yard line. Garoppolo took the sn…",
+    "url": "https://www.nbcsports.com/bayarea/49ers/kyle-shanahan-reveals-where-49ers-last-drive-vs-cardinals-went-wrong",
+    "urlToImage": "https://www.nbcsports.com/sites/rsnunited/files/article/hero/Garoppolo_J_Getty_1272510848.jpg",
+    "publishedAt": "2020-09-15T03:45:13Z",
+    "content": "There were several plays that Jimmy Garoppolo wanted back from the 49ers' 24-20 loss to the Arizona Cardinals on Sunday, but two stood out the most.\r\n \r\nWith 1:21 left in the game, the 49ers had a fi… [+2032 chars]"
   },
-  "banner": {
-    "title": "Red Arrows",
-    "subtitle": "#extra",
-    "author": "Pil Damgaard",
-    "year": "2018",
-    "description": "This section is actually a little extra that can be added if you feel confident while working and the time aint sprinting.",
-    "href_description": "#",
-    "href": "imagewide",
-    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/banner.jpg",
-    "image-alt": "This banner is for real",
-    "appearances": {
-      "color-scheme": "secondary",
-      "href-block-next": "imagewide"
-    }
+  {
+    "source": {
+      "id": "nbc-news",
+      "name": "NBC News"
+    },
+    "author": "The Associated Press",
+    "title": "Newsom gently confronts Trump on climate, but others in his administration aren't so gentle - NBC News",
+    "description": "Gov. Gavin Newsom dropped his fiery tone of recent weeks about climate change while meeting with Trump amid wildfires and the coronavirus pandemic.",
+    "url": "https://www.nbcnews.com/politics/2020-election/newsom-gently-confronts-trump-climate-others-his-administration-aren-t-n1240095",
+    "urlToImage": "https://media1.s-nbcnews.com/j/newscms/2020_38/3412108/200914-gavin-newsom-donald-trump-jm-2244_8a9bc03d7cc9629355cb1e616253b900.nbcnews-fp-1200-630.jpg",
+    "publishedAt": "2020-09-15T03:13:00Z",
+    "content": "SACRAMENTO, Calif. California Gov. Gavin Newsom had President Donald Trump one-on-one on live TV Monday, a perfect opportunity to spar with Democrats' public enemy No. 1 just 50 days before the elect… [+4116 chars]"
   },
-  "imagewide": {
-    "title": "",
-    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/image-full-width.png",
-    "image-alt": "Find us at the center of the universe",
-    "href": "",
-    "appearances": {
-      "href-block": false,
-      "color-scheme": "primary"
-    }
+  {
+    "source": {
+      "id": null,
+      "name": "CNET"
+    },
+    "author": "Queenie Wong",
+    "title": "TikTok users rejoice over Oracle deal, but saga with Trump isn't over - CNET",
+    "description": "People on the short-form video app bust out their happy dance.",
+    "url": "https://www.cnet.com/news/tiktok-users-rejoice-over-oracle-deal-but-saga-with-trump-isnt-over/",
+    "urlToImage": "https://cnet2.cbsistatic.com/img/CDTFoj0WYtST7AL4yetCdcom7Xc=/1200x630/2020/07/15/6cb5dda3-4363-49e6-a048-1bd2f3d2b823/tik-tok-4075.jpg",
+    "publishedAt": "2020-09-15T01:15:00Z",
+    "content": "TikTok has been targeted by the Trump administration because of it's owned by Chinese tech company ByteDance.\r\nAngela Lang/CNET\r\nAustin Benji chimed in on TikTok after news broke on Sunday that Oracl… [+6446 chars]"
   },
-  "imagetext": {
-    "title": "We use tools like NPM/Gulp/Webpack to preprocess files and PostCSS for some mean, lean, killing machine code and React JS is taking over WordPress one step at a time. ",
-    "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/text-media-right.png",
-    "image-alt": "Find us at the center of the universe",
-    "href": "https://github.com/rommel-dk/front-end-test/compare",
-    "href-text": "Pull request",
-    "href-text-alt": "Don\u2019t be shy to commit",
-    "appearances": {
-      "href-block": false,
-      "color-scheme": "secondary",
-      "position-text": "left"
-    }
+  {
+    "source": {
+      "id": null,
+      "name": "Variety"
+    },
+    "author": "Jordan Moreau",
+    "title": "Carole Baskin’s Missing Husband’s Family Airs Commercial During Her ‘Dancing With the Stars’ Debut - Variety",
+    "description": "Carole Baskin faced scrutiny on “Tiger King” over the disappearance of her husband Don Lewis in 1997, and Lewis’ family reignited the mystery with a commercial that aired during Baskin’s debut on “Dancing With the Stars.” The commercial aired during the “Danc…",
+    "url": "https://variety.com/2020/tv/news/carole-baskin-dancing-with-the-stars-husband-commercial-1234769981/",
+    "urlToImage": "https://pmcvariety.files.wordpress.com/2020/09/carole-baskin.jpg?w=1024",
+    "publishedAt": "2020-09-15T02:45:00Z",
+    "content": "Carole Baskin faced scrutiny on “Tiger King” over the disappearance of her husband Don Lewis in 1997, and Lewis’ family reignited the mystery with a commercial that aired during Baskin’s debut on “Da… [+1682 chars]"
+  },
+  {
+    "source": {
+      "id": "cbs-news",
+      "name": "CBS News"
+    },
+    "author": "William Harwood",
+    "title": "Astronomers find possible sign of life on Venus - CBS News",
+    "description": "Telescopes in Hawaii and Chile spotted traces of phosphine, a noxious gas that on Earth is only associated with life.",
+    "url": "https://www.cbsnews.com/news/venus-life-possible-scientists/",
+    "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2020/09/14/9ab96313-4f14-4110-a1fe-3fc1b772223e/thumbnail/1200x630/f2ea2c640a3e2b728452eb21ac98bd96/venus-promo.jpg",
+    "publishedAt": "2020-09-15T02:59:00Z",
+    "content": "Traces of a rare molecule known as phosphine have been found in the hellish, heavily acidic atmosphere of Venus, astronomers announced Monday — providing a tantalizing clue about the possibility of l… [+6095 chars]"
   }
-}
+]

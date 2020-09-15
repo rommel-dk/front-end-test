@@ -14,39 +14,8 @@
 
     <!-- Main Area-->
     <main>
-      <section class="grid articles-section">
-        <div id="article-list">
-          <div>
-            <img src="./assignment-assets/images/tiles-image-1.jpg" alt="" />
-            <p>Jams Bdfdkf</p>
-            <p>I Imagined that Things Were Speaking</p>
-          </div>
-          <div>
-            <img src="./assignment-assets/images/tiles-image-1.jpg" alt="" />
-            <p>Jams Bdfdkf</p>
-            <p>I Imagined that Things Were Speaking</p>
-          </div>
-          <div>
-            <img src="./assignment-assets/images/tiles-image-1.jpg" alt="" />
-            <p>Jams Bdfdkf</p>
-            <p>I Imagined that Things Were Speaking</p>
-          </div>
-          <div>
-            <img src="./assignment-assets/images/tiles-image-1.jpg" alt="" />
-            <p>Jams Bdfdkf</p>
-            <p>I Imagined that Things Were Speaking</p>
-          </div>
-          <div>
-            <img src="./assignment-assets/images/tiles-image-1.jpg" alt="" />
-            <p>Jams Bdfdkf</p>
-            <p>I Imagined that Things Were Speaking</p>
-          </div>
-          <div>
-            <img src="./assignment-assets/images/tiles-image-1.jpg" alt="" />
-            <p>Jams Bdfdkf</p>
-            <p>I Imagined that Things Were Speaking</p>
-          </div>
-        </div>
+      <section class="articles-section">
+        <div id="cardList"></div>
       </section>
 
       <section class="chance-banner">
@@ -77,11 +46,19 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
     <!-- React components -->
-    <script type="text/babel" src="./components/Showcase.js"></script>
-    <!-- <script type="text/babel" src="CoolButton.js"></script> -->
+    <script
+      type="text/babel"
+      src="./assignment-assets/js/components/Showcase.js"
+    ></script>
+    <script
+      type="text/babel"
+      src="./assignment-assets/js/components/CardList.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script type="text/babel">
       ReactDOM.render(<Showcase />, document.querySelector("#showcase"));
+      ReactDOM.render(<CardList />, document.querySelector("#cardList"));
     </script>
   </body>
 </html>
