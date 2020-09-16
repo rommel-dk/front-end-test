@@ -1,34 +1,32 @@
-.article {
-    background-color: #fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: black;
-    .lines-group {
-        position: absolute;
-        top: 0;
-        left: 0;
+    @import '/assets/styles/includes/_vars.scss';
+    .article {
+        background-color: #fff;
+        color: black;
+        svg .line {
+            stroke: #ff4d4d;
+        }
+        svg .line-1 {
+            stroke-width: 23;
+        }
+        svg .line-2 {
+            stroke-width: 80;
+        }
+        svg .line-3 {
+            stroke-width: 12;
+        }
+        .lines-group {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .link {
+            position: relative;
+            color: #ff4d4d;
+            .svg-inline--fa {
+                position: absolute;
+                left: calc(110px - (#{$svg-inline--fa_width} / 2 + 3.5px));
+                width: $svg-inline--fa_width;
+                height: calc(25px + 2vmin);
+            }
+        }
     }
-    svg .line {
-        stroke: #ff4d4d;
-    }
-    svg .line-1 {
-        stroke-width: 23;
-    }
-    svg .line-2 {
-        stroke-width: 80;
-    }
-    svg .line-3 {
-        stroke-width: 100%;
-    }
-    .link {
-        display: flex;
-        color: #ff4d4d;
-    }
-    .link .svg-inline--fa {
-        width: calc(10px + 2vmin);
-    }
-}

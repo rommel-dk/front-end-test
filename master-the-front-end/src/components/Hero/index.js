@@ -12,7 +12,7 @@ function Hero(props) {
       <h1>{props.hero.title}</h1>
       <p>{props.hero.description}</p>
       <a className="link" href="#tiles">
-        <svg height="4" width="100">
+        <svg width="110">
           <line className="line line-3" x1="100%" y1="0" x2="0" y2="0" />
         </svg>
         <svg
