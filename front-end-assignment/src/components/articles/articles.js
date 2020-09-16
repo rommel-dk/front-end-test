@@ -21,6 +21,7 @@ const Articles = () => {
  const singleArticle = articles.map((article) => {     
   return (
       <Article article={article} key={article.id}/>
+      
   )
 });
 
