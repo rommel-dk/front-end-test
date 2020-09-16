@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import Hero from "./components/Hero";
 import data from "./assets/data.json";
 

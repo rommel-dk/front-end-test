@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./hero.module.scss";
 
 function Hero(props) {
   return (
-    <article className="article">
+    <article className={`article ${styles.article}`}>
       <svg className="lines-group" height="75vh" width="100%">
         <line className="line line-1" x1="100%" y1="40" x2="0" y2="500" />
         <line className="line line-1" x1="100%" y1="300" x2="0" y2="500" />

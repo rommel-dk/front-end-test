@@ -1,0 +1,34 @@
+.article {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    .lines-group {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    svg .line {
+        stroke: #ff4d4d;
+    }
+    svg .line-1 {
+        stroke-width: 23;
+    }
+    svg .line-2 {
+        stroke-width: 80;
+    }
+    svg .line-3 {
+        stroke-width: 100%;
+    }
+    .link {
+        display: flex;
+        color: #ff4d4d;
+    }
+    .link .svg-inline--fa {
+        width: calc(10px + 2vmin);
+    }
+}
