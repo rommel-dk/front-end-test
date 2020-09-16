@@ -1,25 +1,25 @@
 .articles-container{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
-  grid-gap: 0 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(38rem, 1fr));
+  grid-gap: 0 3rem;
   /* grid-auto-rows: 1.2rem; */
   
   margin: auto;
-  max-width: 70%;
+  max-width: 100%;
+  width: 153rem;
   justify-items: center;
   margin-top: 3rem;
 }
 
 
 .article{
-  /* width: 39rem;   */
+  padding: 2rem;
   display: table;
   /* 
-  Does not suppoty Ie 
   height: fit-content; 
+          ^^^^^^--- Does not suppoty Ie 
   */
   cursor: pointer;
-  /* transition: cubic-bezier(.81,.73,.98,.86); */
   transition: .3s ease-in-out;
 }
 
@@ -33,7 +33,7 @@ position: relative;
 
 .article-header__image{
 /* position: absolute; */
-width: 100%;
+ width: 100%;
 /* height: auto; */
 }
 
@@ -51,7 +51,7 @@ width: 100%;
 .article-body{
   font-family: 'articulatcf';
   font-weight: 500;
-  padding: 2rem 0;
+  padding-top: 2rem;
   line-height: 3.2rem;
 
 }

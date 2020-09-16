@@ -82,7 +82,8 @@ width: 100%;
 height: 4.9rem;
 transform:rotate(9deg) scale(1.7);
 position: absolute;
-bottom: -6%;
+/* bottom: -6%; */
+bottom: 0%;
 background-color: var(--action-color);
 z-index: -3;
 left: 0;
@@ -90,20 +91,22 @@ left: 0;
 }
 .landing-hero__line-two{
 width: 100%;
-height: 1.2rem;
+height: 1.3rem;
 background-color: var(--action-color);
 transform:rotate(-15deg) scale(1.7);
 position: absolute;
-bottom:77%;
+/* bottom:77%; */
+bottom:69%;
 z-index: -1;
 left: 0;
 }
 .landing-hero__line-three{
   width: 100%;
-  height: 1.2rem;
+  height: 1.3rem;
   transform:rotate(-7deg) scale(1.7);
   position: absolute;
-  bottom: 32%;
+  /* bottom: 32%; */
+  bottom: 27%;
   background-color: var(--action-color);
   z-index: -1;
   left: 0;

@@ -18,10 +18,11 @@
 
 html{
   font-size: 62.5%;
+
 }
 
-body{
-  overflow-x: hidden;
+.App{
+ overflow: hidden;
 }
 
 /*******************/
@@ -98,6 +99,7 @@ h3{
 
 .u-h-wrapper{
   padding: 0 2rem;
-  max-width: 160rem;
+  /* max-width: 160rem; */
+  max-width: 140rem;
   margin: auto;
 }
