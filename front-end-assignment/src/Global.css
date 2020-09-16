@@ -42,7 +42,7 @@ body{
   font-family: 'articulatcf';
   src: url(./assets/fonts/ArticulatCFv2-DemiBold.ttf);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Bold */
@@ -81,23 +81,18 @@ body{
 ******************************/
 
 
-h2{
-  font-family: 'articulatcf';
-  font-weight: 600;
-  font-size: 2.4rem;
-}
 
 h3{
 
 }
 
 
-p{
+/* p{
   font-family: 'articulatcf';
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 2rem;
-}
+} */
 
 /* Utility Classes */
 

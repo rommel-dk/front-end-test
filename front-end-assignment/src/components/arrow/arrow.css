@@ -1,11 +1,4 @@
-.arrow-rd-container{
-  /* margin: 20rem 0; */
-}
-.arrow-rd-wrapper{
-  /* max-width: 160rem;
-  margin: auto;
-  padding: 0 2rem; */
-}
+/* Arrow Right Down */
 
 .arrow-rd{
   border-right: .7rem solid var(--action-color);
@@ -32,4 +25,37 @@
   position: absolute;
   right: -1.7rem;
   bottom: 0;
+}
+
+
+/* Arrow Right */
+
+.arrow-r-wrapper{
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.arrow-r{
+  position: relative;
+  width: 6.6rem;
+  height: .3rem;
+  background-color: var(--action-color) ;
+  display: flex;
+  transition: .2s ease-in-out;
+
+}
+
+.article-on-hover{
+  width: 100%;
+}
+
+
+.arrow-r__arrow{
+  border: solid var(--action-color);
+  border-width: 0 .3rem .3rem 0;
+  display: inline-block;
+  padding: .6rem;
+  transform: rotate(-45deg);
+  margin-left: -1.5rem;
 }
