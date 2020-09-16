@@ -1,4 +1,8 @@
     @import '/assets/styles/includes/_vars.scss';
+    .App {
+        position: relative;
+    }
+    
     .article {
         background-color: #fff;
         color: black;
