@@ -16,7 +16,7 @@ function App() {
           description={assignmentData['hero-1'].description}
         />
       </div>
-        <Section/>
+      <Section/>
       <div className="sub-section">
         <SubHeader 
           title={assignmentData['hero-2'].title} 

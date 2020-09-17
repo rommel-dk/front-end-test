@@ -10,14 +10,14 @@ function SubHeader(props) {
                 <h1>{props.title}</h1>
             </div>    
             <div className="sub-title">
-                <div className="sub">
+                <div>
                     <h2>{props.subtitle}</h2>
                 </div>
                 <div>
-                    <LineArrow className="hello"/>
+                    <LineArrow/>
                 </div>
             </div>
-            <div>{props.description}</div>
+            <div className="sub-description">{props.description}</div>
         </div>
     )
 }

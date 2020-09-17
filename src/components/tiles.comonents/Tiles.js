@@ -22,7 +22,6 @@ function Tiles(props) {
                 </div>
                  <LineArrow/>
             </div>
-           
         </div>
     )
 }

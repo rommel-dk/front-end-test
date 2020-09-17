@@ -24,21 +24,20 @@
 .horizontal-line {
     margin-top:5px;
     width: 6em;
-    background: #FF3146;
+    background: #FF0000;
     height: 4px;
     float: left;
 }
 .vertical-line {
     margin-top: 5px;
-    border-left: 5px solid #FF3146;
+    border-left: 5px solid #FF0000;
     height: 2em;
 }  
 .down-point {
     margin-top: 2.2em;
-    margin-left: -0.7em;
     border-top: 6px solid transparent;
     border-bottom: 6px solid transparent;
-    border-left: 14px solid #FF3146;
+    border-left: 14px solid #FF0000;
     transform: rotate(90deg);
 }
 .subheader-content h1 {
