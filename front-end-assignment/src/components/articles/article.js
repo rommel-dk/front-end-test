@@ -1,5 +1,5 @@
  import React, {useRef, useState, useEffect} from 'react'
-import ArrowR from '../arrow/arrowR';
+import {ArrowRSM} from '../arrow/arrowR';
  
  const Article = ({article}) => {
   const [state, setState] = useState({spans: 0})
@@ -37,7 +37,7 @@ const setSpans = () => {
       <div className="article-body">
         <h2 className="article-body__title">{article.author}</h2>
         <p className="article-body__sub-title">{article.title}</p>
-        <ArrowR hover={hover} />
+        <ArrowRSM hover={hover} />
       </div>
     </div>
    )

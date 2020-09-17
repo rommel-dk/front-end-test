@@ -1,14 +1,21 @@
 import React from 'react'
 
-const ArrowR = ({hover}) => {
+export const ArrowRSM = ({hover}) => {
   return (
-    <div className="arrow-r-container">
-      <div className="arrow-r-wrapper ">
-        <div className={`arrow-r ${hover}`}></div>
-        <span className="arrow-r__arrow"></span>
-      </div>
-    </div>
+      <span className="arrow-sm-r-wrapper">
+        <span className={`arrow-sm-r ${hover}`}></span>
+        <span className="arrow-sm-r__arrow"></span>
+      </span>
   )
 }
 
-export default ArrowR
+export const ArrowRLG = () => {
+  return (
+      <span className="arrow-lg-r-wrapper">
+        <span className={`arrow-lg-r`}></span>
+        <span className="arrow-lg-r__arrow"></span>
+      </span>
+  )
+}
+
+ 
