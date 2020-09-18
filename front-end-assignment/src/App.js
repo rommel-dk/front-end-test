@@ -2,8 +2,10 @@ import React from 'react';
 import ArrowRD from './components/arrow/arrowRD';
 import Articles from './components/articles/articles';
 import ExtraBanner from './components/extrabanner/extraBanner';
+import ImageWide from './components/imageWide/imageWide';
 import LandingHero from './components/landingHeroComponent/LandingHero';
 import SecondHero from './components/secondHero/SecondHero';
+import ImageText from './components/imageText/imageText';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Articles />
       <SecondHero />
       <ExtraBanner />
+      <ImageWide />
+      <ImageText />
 
     </div>
   );
