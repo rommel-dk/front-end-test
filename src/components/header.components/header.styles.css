@@ -70,12 +70,19 @@
 
 @media screen and (max-width:700px) {
     .main-header {
-        margin: 2% 5% 0 15%;
+        margin-top: 2%;
+        width: 100%;
+    }
+}
+@media screen and (max-width:370px) {
+    .main-header {
+        margin-top: 2%;
+        width: 100%;
     }
 }
 @media all and (max-width:1000px) {
     .main-header {
-        margin: 2% 5% 5% 20%;
+        margin: 2% 5% 5% 30%;
     }
 }
 

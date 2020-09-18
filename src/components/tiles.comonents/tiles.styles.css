@@ -54,3 +54,8 @@
         width: 100%;
     } 
 }
+@media screen and (max-width:370px) {
+    .container img {
+        width: 100%;
+    } 
+}
