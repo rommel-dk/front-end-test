@@ -1,0 +1,12 @@
+.tile {
+    position: relative;
+    width: 100%;
+    img {
+        width: 100%;
+    }
+    p {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}

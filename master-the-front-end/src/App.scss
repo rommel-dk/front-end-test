@@ -1,8 +1,4 @@
     @import '/assets/styles/includes/_vars.scss';
-    .App {
-        position: relative;
-    }
-    
     .article {
         background-color: #fff;
         color: black;
@@ -25,12 +21,20 @@
         }
         .link {
             position: relative;
+            display: flex;
             color: #ff4d4d;
-            .svg-inline--fa {
+            .svg-inline--fa.fa-arrow-down {
                 position: absolute;
                 left: calc(110px - (#{$svg-inline--fa_width} / 2 + 3.5px));
                 width: $svg-inline--fa_width;
                 height: calc(25px + 2vmin);
+            }
+            .svg-inline--fa.fa-arrow-right {
+                position: absolute;
+                top: #{$fa-arrow-right_negative};
+                left: 50px;
+                width: #{$fa-arrow-right};
+                height: #{$fa-arrow-right};
             }
         }
     }
