@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assignment-assets/css/style.css" />
+    <title>Front-end Test for Rommel</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div id="showcase"></div>
+    </header>
+
+    <!-- Main Area-->
+    <main>
+      <section class="articles-section">
+        <div id="cardList" class="articles-wrapper grid"></div>
+      </section>
+
+      <section class="chance-banner">
+        <div id="yourChance"></div>
+      </section>
+
+      <section class="extra"></section>
+
+      <section class="our-tools"></section>
+    </main>
+    <footer>
+      <div id="footer"></div>
+    </footer>
+
+    <!-- React -->
+    <script
+      src="https://unpkg.com/react@16/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- React components -->
+    <script
+      type="text/babel"
+      src="./assignment-assets/js/components/Showcase.js"
+    ></script>
+    <script
+      type="text/babel"
+      src="./assignment-assets/js/components/CardList.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/babel"
+      src="./assignment-assets/js/components/Footer.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/babel">
+      ReactDOM.render(<Showcase />, document.querySelector("#showcase"));
+      ReactDOM.render(<CardList />, document.querySelector("#cardList"));
+      // ReactDOM.render(<YourChance />, document.querySelector("#yourChance"));
+      ReactDOM.render(<Footer />, document.querySelector("#footer"));
+    </script>
+  </body>
+</html>
