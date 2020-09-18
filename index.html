@@ -19,20 +19,16 @@
       </section>
 
       <section class="chance-banner">
-        <h2>Your chance</h2>
-        <p>GET ON THE SKILLTRAIN NOW</p>
-        <p>
-          The assignment must be delivered as a pull request to the assignment
-          repository and we appreciate running commits so we can see how you go
-          from our small layout to a final awesome product.
-        </p>
+        <div id="yourChance"></div>
       </section>
 
       <section class="extra"></section>
 
       <section class="our-tools"></section>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="footer"></div>
+    </footer>
 
     <!-- React -->
     <script
@@ -55,10 +51,17 @@
       src="./assignment-assets/js/components/CardList.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/babel"
+      src="./assignment-assets/js/components/Footer.js"
+      crossorigin="anonymous"
+    ></script>
 
     <script type="text/babel">
       ReactDOM.render(<Showcase />, document.querySelector("#showcase"));
       ReactDOM.render(<CardList />, document.querySelector("#cardList"));
+      // ReactDOM.render(<YourChance />, document.querySelector("#yourChance"));
+      ReactDOM.render(<Footer />, document.querySelector("#footer"));
     </script>
   </body>
 </html>
