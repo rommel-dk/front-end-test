@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.titles{
+    padding: 30px $sideMargin 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -$padding;
+
+    .arrow-container{
+        display: inline-flex;
+        justify-content: center;
+        padding: 0 $padding;
+        width: 100%;
+
+        svg{
+            height: 50px;
+        }
+    }
+
+    .column{
+        display: inline-flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 0 35px;
+        flex-grow: 1;
+
+        & > * {
+            margin: 35px 0;
+        }
+    }
+}
+
+@media(min-width: 800px){
+    .titles{
+        .arrow-container{
+            justify-content: flex-start;
+        }
+
+        .column{
+            &:last-child{
+                margin-top: ($padding + 50px) * -1;
+            }
+        }
+    }
+}
