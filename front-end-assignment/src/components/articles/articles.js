@@ -1,14 +1,9 @@
-import React, {useEffect, useState, useRef} from 'react'
-import ArrowRD from '../arrow/arrowRD';
+import React, {useEffect, useState} from 'react'
 import Article from './article';
 import './articles.css';
  
 const Articles = () => {
   const [articles, setArticles] = useState([])
-  const [el, setEl] = useState()
-//    const aRef = useRef('');
-// const refs = useRef();
-
 
  // Fetch Images and use it as fake articles
  useEffect(() => {

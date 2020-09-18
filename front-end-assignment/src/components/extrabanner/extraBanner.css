@@ -1,0 +1,144 @@
+section.banner-section{
+  margin: 3rem 0 5rem 0;
+}
+
+@media (min-width: 480px) {
+  section.banner-section{
+    margin: 8rem 0 30rem 0;
+  }
+}
+
+.banner-container{
+  position: relative;
+  margin-right: 4%;
+  margin-bottom: 1rem;
+}
+
+.banner-content-wrapper{
+  z-index: 10;
+  width: 100%;
+}
+
+@media (min-width: 480px) {
+  .banner-content-wrapper{
+    position: absolute;
+  }
+}
+
+.banner-img{
+  position: relative;
+  width: 100%;
+}
+
+.banner-description{
+  height: 20rem;
+  max-width: 25rem;
+  padding: 2rem 2rem;
+  background: white;
+  margin-top: 3rem;
+}
+
+@media (min-width: 480px) {
+  .banner-description{
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.banner-description > h3 {
+  font-family: 'articulatcf';
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom:1rem;
+
+  font-size: 1.8rem;
+
+}
+.banner-description > p {
+  font-family: 'articulatcf';
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 1.6rem;
+}
+
+.extra-heading-container{
+  text-align: end;
+  position: absolute;
+  bottom: 20.2rem;
+  right: 0;
+}
+
+.extra-heading-container .arrow-ld-wrapper{
+display: none;
+}
+
+@media (min-width: 480px) {
+  .extra-heading-container{
+    margin-bottom: -12%;
+    bottom: 5.2rem;
+  }
+
+  .extra-heading-container .arrow-ld-wrapper{
+    transform: translateY(4.4rem);
+    margin-right: 6vw;
+    padding-right: 1rem;
+    display: flex;
+  }
+
+  .extra-heading-container .arrow-ld-wrapper .arrow-ld{
+    border-left: .5rem solid var(--action-color);
+    border-top: .5rem solid var(--action-color);
+  }
+  .extra-heading-container .arrow-ld-wrapper .arrow-ld__arrow{
+    border-width: 0 .5rem .5rem 0;
+    left: -1.5rem;
+  }
+}
+
+.extra-heading__subtitle{
+  color: var(--action-color);
+  font-family: 'articulatcf';
+  font-style: italic;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 7vw;
+}
+
+@media (min-width: 480px) {
+  .extra-heading__subtitle{
+    margin-right: 6rem;
+  }
+}
+
+.extra-heading__title{
+  font-family: 'articulatcf';
+  font-style: normal;
+  font-weight: 500;
+
+  font-size: 7vw;
+
+  line-height: 6vw;
+
+}
+
+.extra-heading__underline{
+  display: inline-block;
+  height: 3.6rem;
+  width: 88%;
+  background-color: var(--light-blue-color);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: 0.7rem;
+  transform: translateX(1.8rem) rotate(2deg);
+}
+
+@media (min-width: 480px) {
+  .extra-heading__underline{
+    transform: translateX(-2.2rem) rotate(2deg);
+  bottom: 4.5rem;
+
+  }
+  
+}

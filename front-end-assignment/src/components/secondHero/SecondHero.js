@@ -31,4 +31,3 @@ const SecondHero = () => {
 }
 
 export default SecondHero
-{/* <span className="second-hero__line-three-inner"></span> */}

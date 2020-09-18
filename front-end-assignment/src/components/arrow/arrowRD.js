@@ -15,4 +15,18 @@ const ArrowRD = () => {
   )
 }
 
+export const ArrowLD = () => {
+  return (
+    <div className="arrow-ld-container">
+      <div className="arrow-ld-wrapper u-h-wrapper">
+        <div className="arrow-ld">
+          <span className="arrow-ld-inner">
+            <span className="arrow-ld__arrow"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default ArrowRD

@@ -50,7 +50,7 @@ html{
 @font-face {
   font-family: 'articulatcf';
   src: url(./assets/fonts/ArticulatCFv2-Bold.ttf);
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
