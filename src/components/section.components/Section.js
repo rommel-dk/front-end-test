@@ -13,7 +13,7 @@ function Section() {
       }, [])       
 
     return (
-        <div className="main-section">
+        <main className="main-section">
             {assignmentDataState && assignmentDataState.map((tile, index) =>            
                 <div className="item" key={index}>
                     <Tiles  image={tile.image}
@@ -24,7 +24,7 @@ function Section() {
                     />
                 </div>
             )}
-        </div>
+        </main>
     )
 }
 

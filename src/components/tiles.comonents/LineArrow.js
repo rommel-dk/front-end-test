@@ -9,4 +9,4 @@ function LineArrow() {
     )
 }
 
-export default LineArrow
+export default LineArrow;

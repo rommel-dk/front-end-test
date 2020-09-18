@@ -5,9 +5,7 @@ import "./tiles.styles.css";
 function Tiles(props) {
     return (
         <div className="container">
-            <div>
                 <img src={props.image} alt=""/>
-            </div>
             <div className="date-class">
                 <span>
                     {props.date}

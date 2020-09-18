@@ -1,7 +1,7 @@
 .main-section {
     width: 100%;
     display: flex;
-	flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-around;    
 }
 .item {
@@ -15,4 +15,26 @@
     align-items: flex-start;
 }
 
+/* Media queries */
+
+@media all and (max-width:1000px) {
+    .main-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item {
+        margin-bottom: 10%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .main-section {
+        margin: 10%;
+    } 
+    .item {
+        margin-bottom: 10%;
+    }
+}
 
