@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Hero hero={data.hero1}></Hero>
-      <Tiles tiles={data.tiles}> </Tiles>)
+      <Tiles tiles={data.tiles}></Tiles>)
     </div>
   );
 }

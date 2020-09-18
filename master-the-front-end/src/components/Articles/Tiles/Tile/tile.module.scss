@@ -1,3 +1,4 @@
+@import '../../../../assets/styles/includes/_colors.scss';
 .tile {
     position: relative;
     width: 100%;
@@ -8,5 +9,25 @@
         position: absolute;
         right: 0;
         top: 0;
+        background-color: white;
+        padding: 1em;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 1.625em;
+    }
+    h2 {
+        font-size: 1.5em;
+        color: $alt-pink;
+    }
+}
+
+// Laptop
+@media only screen and (min-width: 1280px) {
+    h1 {
+        font-size: 2.125vw;
+    }
+    h2 {
+        font-size: 2vw;
     }
 }

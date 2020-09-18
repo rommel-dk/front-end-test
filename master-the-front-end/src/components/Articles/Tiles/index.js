@@ -4,8 +4,8 @@ import Tile from "./Tile";
 
 function Tiles(props) {
   return (
-    <div id="tiles" className={`article ${styles.tiles_wrapper}`}>
-      <article className={styles.article}>
+    <div id="tiles">
+      <article className={`article ${styles.article}`}>
         {" "}
         {props.tiles.map((tile, index) => (
           <Tile key={index} tile={tile}>
