@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .titles{
-    padding: 30px $sideMargin 0;
+    padding: $padding $sideMargin;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -10,7 +10,7 @@
     .arrow-container{
         display: inline-flex;
         justify-content: center;
-        padding: 0 $padding;
+        padding: 0 $padding $padding;
         width: 100%;
 
         svg{
@@ -39,7 +39,7 @@
 
         .column{
             &:last-child{
-                margin-top: ($padding + 50px) * -1;
+                margin-top: (($padding * 2) + 50px) * -1;
             }
         }
     }
