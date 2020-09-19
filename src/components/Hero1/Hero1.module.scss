@@ -8,7 +8,7 @@
 
     .background-1{
         position: absolute;
-        top: 100px;
+        top: 20px;
         left: 0;
         width: 100%;
         height: auto;
@@ -26,7 +26,7 @@
     }
     
     .title{
-        font-size: 50px;
+        font-size: $titleFontSizeXs;
         margin-top: 0;
         margin-bottom: 0.5em;
         line-height: 1em;
@@ -42,7 +42,7 @@
         position: relative;
         z-index: 3;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         text-align: center;
     }
 }
@@ -50,12 +50,13 @@
 @media(min-width: 500px){
     .hero-1{
         .title{
-            font-size: 70px;
+            font-size: $titleFontSizeS;
             text-align: left;
         }
         
         .text{
             text-align: left;
+            font-size: 24px;
         }
     }
 }
@@ -65,7 +66,7 @@
         padding-top: 40px;
 
         .title{
-            font-size: 90px;
+            font-size: $titleFontSizeM;
             max-width: 600px;
         }
         
@@ -80,7 +81,7 @@
         padding-top: 50px;
 
         .title{
-            font-size: 120px;
+            font-size: $titleFontSizeL;
             max-width: 670px;
         }
     }
@@ -95,7 +96,7 @@
 @media(min-width: 1600px){
     .hero-1{
         .title{
-            font-size: $titleFontSize;
+            font-size: $titleFontSizeXl;
             max-width: 850px;
         }
     }
