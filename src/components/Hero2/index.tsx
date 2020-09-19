@@ -9,9 +9,11 @@ import styles from './Hero2.module.scss';
 
 interface IHero2Props{
     title: string;
+    subtitle: string;
+    children: string;
 }
 
-export default function Hero2({title}: IHero2Props){
+export default function Hero2({title, subtitle, children}: IHero2Props){
     const usableTitle = <>
         {title.slice(0, 7)}
         <GetNotOverlapped str={title.slice(7)} className={styles['not-overlapped']} />
@@ -19,13 +21,15 @@ export default function Hero2({title}: IHero2Props){
     return (
         <section className={styles['hero-2']}>
             <Background1 className={styles['background-1']} />
-            <h1 className={styles.title}>{usableTitle}</h1>
-            <Background2 className={styles['background-2']} />
+            <div className={styles.content}>
+                <h1 className={styles.title}>{usableTitle}</h1>
                 <h2 className={styles.subtitle}>
-                    GET ON THE SKILL TRAIN NOW 
+                    {subtitle}
                     <span className={styles.arrow} ><ArrowRight /></span>
                 </h2>
-            <p className={styles.text}>The assignment must be delivered as a pull request to the assignment repository and we appreciate running commits so we can see how you go from our small layout to a final awesome product.</p>
+                <p className={styles.text}>{children}</p>
+            </div>
+            <Background2 className={styles['background-2']} />
         </section>
     )
 }
