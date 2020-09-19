@@ -1,10 +1,19 @@
 import React from "react";
-import styles from "./hero-2.module.scss";
+import styles from "./hero.module.scss";
 
 function Hero2(props) {
   return (
     <div className={styles.article_wrapper}>
-      <article className={`article ${styles.article}`}>
+      <article className={`article ${styles.article_2}`}>
+        <svg className={styles.lines_group} height="70%" width="100vw">
+          <line
+            className="line line-2"
+            x1="101%"
+            y1="12%"
+            x2="40%"
+            y2="20%"
+          ></line>
+        </svg>
         <svg className={styles.lines_group} height="70%" width="100vw">
           <line
             className="line line-1"
@@ -26,8 +35,7 @@ function Hero2(props) {
         <div className={styles.title_group}>
           <h1>{props.hero.title}</h1>
         </div>
-        <h2>{props.hero.subtitle}</h2>
-        <p>{props.hero.description}</p>
+        <h2>{props.hero.subtitle}</h2>{" "}
         <a className="link" href="#">
           <div className="arrows_group">
             <svg width="55" height="5">
@@ -50,6 +58,7 @@ function Hero2(props) {
             </svg>
           </div>
         </a>
+        <p>{props.hero.description}</p>
       </article>
     </div>
   );

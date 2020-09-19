@@ -2,7 +2,8 @@
     position: relative;
 }
 
-.article {
+.article_1,
+.article_2 {
     display: grid;
     grid-gap: 1.5em;
     grid-template-rows: max-content max-content max-content;
@@ -18,6 +19,22 @@
         position: absolute;
         top: 0;
         left: 0;
+        z-index: 30;
+    }
+    p {
+        line-height: 1.3;
+        font-size: 5vw;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
+.article_2 {
+    justify-content: center;
+    h2 {
+        font-size: 5vw;
+        max-width: 15ch;
+        text-transform: uppercase;
         z-index: 30;
     }
     p {
@@ -51,7 +68,8 @@
 
 // Mobile in Landscape Mode
 @media only screen and (max-width: 1023px) and (orientation: landscape) {
-    .article {
+    .article_1,
+    .article_2 {
         margin: 1.5em 2.5em;
         grid-template-columns: auto auto;
         grid-template-rows: max-content max-content;
@@ -72,7 +90,8 @@
 
 // Tablet
 @media only screen and (min-width: 768px) and (orientation: portrait) {
-    .article {
+    .article_1,
+    .article_2 {
         margin: 1.5em 2.5em;
         h1 {
             font-size: 10vw;
@@ -87,7 +106,8 @@
 
 // Tablet in Landscape Mode
 @media only screen and (min-width: 1024px) and (orientation: landscape) {
-    .article {
+    .article_1,
+    .article_2 {
         margin: 1.5em 3.5em;
         h1 {
             font-size: 8vw;
@@ -105,14 +125,16 @@
 
 // Tablet Pro
 @media only screen and (min-width: 1024px) and (orientation: portrait) {
-    .article {
+    .article_1,
+    .article_2 {
         margin: 1.5em 3.5em;
     }
 }
 
 // Laptop
 @media only screen and (min-width: 1280px) {
-    .article {
+    .article_1,
+    .article_2 {
         margin: 1.5em 7em 2.5em;
     }
 }

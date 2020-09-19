@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./hero.module.scss";
 
-function Hero(props) {
+function Hero1(props) {
   const titleClone = props.hero.title
     .replace("end", "<br>")
     .replace("i", "<span style='visibility:hidden;'>i</span>")
     .replace("sse", "<br>");
   return (
     <div className={styles.article_wrapper}>
-      <article className={`article ${styles.article}`}>
+      <article className={`article ${styles.article_1}`}>
         <svg className={styles.lines_group} height="80%" width="100vw">
           <line
             className="line line-1"
@@ -66,4 +66,4 @@ function Hero(props) {
   );
 }
 
-export default Hero;
+export default Hero1;
