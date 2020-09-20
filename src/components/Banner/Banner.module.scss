@@ -37,6 +37,7 @@
                 color: #F54E52;
                 margin-bottom: .3em;
                 font-weight: 800;
+                font-family: 'ArticulatCF';
                 font-size: 35px;
                 z-index: 2;
                 text-transform: uppercase;
@@ -48,6 +49,7 @@
                 margin-top: 0;
                 font-weight: 500;
                 font-size: 40px;
+                font-family: 'ArticulatCFv2';
                 line-height: 1em;
                 z-index: 2;
             }
@@ -69,11 +71,13 @@
 
             .meta{
                 font-size: 15px;
+                font-family: 'Articulat CF v2';
                 margin-top: 0;
                 font-weight: 700;
             }
 
             .summary{
+                font-family: 'ArticulatCF';
                 font-size: 13px;
                 margin-top: 0;
             }
