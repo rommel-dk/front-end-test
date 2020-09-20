@@ -18,7 +18,6 @@ const ImageText = () => {
   console.log()
   return (
     <div className="image-showcase-container">
-      <ImageWide />
 
       <div className="image-showcase-content-wrapper">
         <div className="blue-text-box">
@@ -36,6 +35,8 @@ const ImageText = () => {
           </div>
         </div>
         {/* <div className="img-container"> */}
+      <ImageWide />
+
           <img className="image-text__img" src={imageText.image} alt={imageText.image}/>
         {/* </div> */}
       </div>

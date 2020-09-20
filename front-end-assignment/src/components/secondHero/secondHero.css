@@ -168,12 +168,13 @@ section.second-hero{
     .second-hero__line-three{
       width: 49%;
       height: 3.6rem;
-      transform:rotate(-6deg) scale(1.7);
+      transform:rotate(-6deg) scale(1.7) skew(-4deg);
       position: absolute;
       top: -41%;
       background-color: var(--light-blue-color);
       z-index: -3;
       right: 0;
+      
     }
   
 

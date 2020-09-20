@@ -14,18 +14,36 @@
 
 .footer-inner{
   max-width: 173rem;
-  margin-left: 8rem;
   display: flex;
   justify-content: space-between ;
-  padding:4rem 2rem 4rem 4rem;
+  padding:4rem 2rem 0 4rem;
+  align-items: center;
 
+}
+
+@media (min-width: 1054px) {
+  .footer-inner{
+    margin-left: 8rem;
+    padding:4rem 2rem 4rem 4rem;
+  
+  }
 }
 
 
 .footer-inner h2 {
-  /* font-size: 1.5rem; */
+  font-size: 2rem;
   text-transform: uppercase;
 }
 .footer-inner p {
   font-size: 1.8rem;
 }
+
+@media (min-width: 768px) {
+  .footer-inner h2 {
+    font-size: 5rem;
+  }
+  .footer-inner p {
+    font-size: 1.8rem;
+  }
+}
+

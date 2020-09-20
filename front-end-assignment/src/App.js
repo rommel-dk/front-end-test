@@ -17,6 +17,7 @@ function App() {
       <SecondHero />
       <ExtraBanner />
       {/* <ImageWide /> */}
+      <div className="spacer"></div>
       <ImageText />
       <Footer />
 
