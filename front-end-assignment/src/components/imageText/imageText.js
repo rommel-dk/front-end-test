@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react'
+import ImageWide from '../imageWide/imageWide';
 import './imageText.css';
 
 const ImageText = () => {
@@ -14,18 +15,22 @@ const ImageText = () => {
 
   console.log()
   return (
-    <div className="image-text-container">
-      <div className="blue-text-box">
-        <h2 className="blue-text-box__title">
-          {imageText.title}
-          <span className="blue-text-box-text__underscore"></span>
-        </h2>
-        <div className="blue-text-box__bg"></div>
-      </div>
-      <div className="black-footer"></div>
-      <div className="img-container">
-      <img className="image-text__img" src={imageText.image} alt=""/>
+    <div className="image-showcase-container">
+      <ImageWide />
 
+      <div className="image-showcase-content-wrapper">
+        <div className="blue-text-box">
+          <h2 className="blue-text-box__title">
+            {imageText.title}
+            <span className="blue-text-box-text__underscore"></span>
+          </h2>
+          <div className="blue-text-box__bg">
+        <div className="black-footer">asdsa</div>
+          </div>
+        </div>
+        {/* <div className="img-container"> */}
+          <img className="image-text__img" src={imageText.image} alt={imageText.image}/>
+        {/* </div> */}
       </div>
     </div>
   )

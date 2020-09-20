@@ -6,6 +6,7 @@ import ImageWide from './components/imageWide/imageWide';
 import LandingHero from './components/landingHeroComponent/LandingHero';
 import SecondHero from './components/secondHero/SecondHero';
 import ImageText from './components/imageText/imageText';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Articles />
       <SecondHero />
       <ExtraBanner />
-      <ImageWide />
+      {/* <ImageWide /> */}
       <ImageText />
+      <Footer />
 
     </div>
   );

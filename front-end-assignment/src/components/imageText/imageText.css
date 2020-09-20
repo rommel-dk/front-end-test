@@ -1,42 +1,90 @@
-.image-text-container{
-  /* display: flex; */
+.image-showcase-container{
+  display: flex;
+  flex-direction: column;
   /* align-items: flex-end; */
   position: relative;
+  height: 200rem;
+  
 }
 
+.image-wide-container{
+  position: absolute;
+  bottom:121vw;
+  width: 100%;
+z-index:1 ;
+}
+
+@media (min-width: 1054px) {
+  .image-wide-container{
+    bottom:79.8rem;
+
+  }
+  
+}
+
+.image-wide{
+  width: 100%;
+  
+}
+
+.image-showcase-content-wrapper{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  /* margin-top: 2rem; */
+  align-items: flex-end;
+  width: 100%;
+  flex-direction: column;
+
+}
+
+@media (min-width: 972px) {
+  .image-showcase-content-wrapper{
+    flex-direction: row;
+  }
+  
+}
+
+.img-container{
+  /* flex: 2 2 2rem; */
+
+}
 .image-text__img{
-/* display: none; */
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  order: -1;
 }
 
 @media (min-width: 972px) {
   .image-text__img{
-    display: block;
+    max-width: 1037px;
+    height: auto;
     position: absolute;
-    bottom: 0;
     right: 0;
-    max-width: 1000px;
-    width: 100%;
+    z-index: 3;
   }
   
 }
 
 .blue-text-box{
   position: relative;
-  height: 670px;
+  height: 100rem;
   display: flex;
   align-items: center;
+  /* z-index: -1; */
+  flex: 1 1 20rem;
 }
 
 .blue-text-box__title{
-  /* height: 40rem; */
   padding: 5rem;
   font-family: 'articulatcf';
   font-weight: 500;
-  margin-right: 78rem;
+  /* margin-right: 78rem; */
   font-size: 3vw;
-  /* max-width: 63rem; */
   position: relative;
-  z-index: 3;
+  z-index: 5;
+  max-width: 112rem;
 }
 
 .blue-text-box__bg{
@@ -47,9 +95,22 @@
   height: 100%;
 }
 
-
+.blue-text-box-text__underscore{
+  display: inline-block;
+  height: 4rem;
+  width: 56%;
+  background-color: var(--light-blue-color);
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(4rem) translateY(-3rem) rotate(7deg) skew(7deg);
+}
 
 .black-footer{
   height: 10rem;
   background-color: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
