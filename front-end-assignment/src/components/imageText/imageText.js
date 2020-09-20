@@ -1,4 +1,6 @@
 import React, {useEffect, useState} from 'react'
+import ArrowBox from '../arrow/arrowBox';
+import ArrowRD from '../arrow/arrowRD';
 import ImageWide from '../imageWide/imageWide';
 import './imageText.css';
 
@@ -24,8 +26,13 @@ const ImageText = () => {
             {imageText.title}
             <span className="blue-text-box-text__underscore"></span>
           </h2>
+            <span className="blue-text-box-arrow-down">
+              {/* <span className="blue-text-box-arrow-down__line"></span> */}
+              <ArrowRD />
+              <ArrowBox />
+            </span>
           <div className="blue-text-box__bg">
-        <div className="black-footer">asdsa</div>
+        <div className="black-footer"></div>
           </div>
         </div>
         {/* <div className="img-container"> */}

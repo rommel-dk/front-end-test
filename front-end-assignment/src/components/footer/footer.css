@@ -1,4 +1,23 @@
 .footer{
-  height: 10rem;
+  height: 20rem;
   background-color: black;
+  color: var(--yellow-color);
+  font-family: 'articulatcf';
+  font-style: italic;
+  font-weight: 800;
+  font-size: 3rem;
+  
+  /* display: flex; */
+  width: 100%;
+  /* justify-content: space-between ; */
+}
+
+.footer-inner{
+  max-width: 160rem;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between ;
+  padding:4rem 2rem 4rem 4rem;
+
 }

@@ -107,8 +107,32 @@ z-index:1 ;
   transform: translateX(4rem) translateY(-3rem) rotate(7deg) skew(7deg);
 }
 
+.blue-text-box-arrow-down{
+  display: inline-block;
+  height: 4rem;
+  width: 56%;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  bottom: 17.5rem;
+  transform: translateX(4rem) translateY(-3rem);
+}
+
+.blue-text-box-arrow-down .arrow-rd-container .arrow-rd-wrapper .arrow-rd{
+ width: 118px;
+ height: 120px;
+ border-right: .7rem solid var(--light-blue-color);
+ border-top: .7rem solid var(--light-blue-color);
+
+}
+.blue-text-box-arrow-down .arrow-rd-container .arrow-rd-wrapper .arrow-rd .arrow-rd__arrow{
+display: none;
+}
+
+
+
 .black-footer{
-  height: 10rem;
+  height: 12.4rem;
   background-color: var(--primary-color);
   position: absolute;
   bottom: 0;
