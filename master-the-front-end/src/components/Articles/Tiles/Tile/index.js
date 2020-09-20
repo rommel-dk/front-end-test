@@ -13,7 +13,13 @@ function Tile(props) {
       <a className="link" href="#">
         <div className="arrows_group">
           <svg width="55" height="5">
-            <line className="line line-3" x1="100%" y1="0" x2="0" y2="0" />
+            <line
+              className="line-primary line-3"
+              x1="100%"
+              y1="0"
+              x2="0"
+              y2="0"
+            />
           </svg>
           <svg
             aria-hidden="true"

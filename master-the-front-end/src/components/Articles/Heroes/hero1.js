@@ -9,16 +9,16 @@ function Hero1(props) {
   return (
     <div className={styles.article_wrapper}>
       <article className={`article ${styles.article_1}`}>
-        <svg className={styles.lines_group} height="80%" width="100vw">
+        <svg className={styles.line_group} height="80%" width="100vw">
           <line
-            className="line line-1"
+            className="line-primary line-1"
             x1="101%"
             y1="4%"
             x2="-1%"
             y2="78%"
           ></line>
           <line
-            className="line line-1"
+            className="line-primary line-1"
             x1="101%"
             y1="45%"
             x2="-1%"
@@ -27,7 +27,7 @@ function Hero1(props) {
         </svg>
         <svg className={styles.line_single} height="80%" width="100vw">
           <line
-            className="line line-2"
+            className="line-primary line-2"
             x1="101%"
             y1="92%"
             x2="-1%"
@@ -42,7 +42,13 @@ function Hero1(props) {
         <a className="link" href="#tiles">
           <div className="arrows_group">
             <svg width="110" height="6">
-              <line className="line line-3" x1="100%" y1="0" x2="0" y2="0" />
+              <line
+                className="line-primary line-3"
+                x1="100%"
+                y1="0"
+                x2="0"
+                y2="0"
+              />
             </svg>
             <svg
               aria-hidden="true"

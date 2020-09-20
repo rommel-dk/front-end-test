@@ -1,44 +1,43 @@
-        @import '/assets/styles/includes/_vars.scss';
-        .article {
-            background-color: #fff;
-            color: black;
-            svg .line {
-                stroke: #ff4d4d;
-            }
-            svg .line-1 {
-                stroke-width: 23;
-            }
-            svg .line-2 {
-                stroke-width: 80;
-            }
-            svg .line-3 {
-                stroke-width: 100%;
-            }
-            .lines-group {
+@import '/assets/styles/includes/_vars.scss';
+@import '/assets/styles/includes/_colors.scss';
+.article {
+    background-color: #fff;
+    color: black;
+    svg .line-primary {
+        stroke: $primary-color;
+    }
+    svg .line-secondary {
+        stroke: $secondary-color;
+    }
+    svg .line-1 {
+        stroke-width: 23;
+    }
+    svg .line-2 {
+        stroke-width: 80;
+    }
+    svg .line-3 {
+        stroke-width: 100%;
+    }
+    .link {
+        max-width: fit-content;
+        .arrows_group {
+            position: relative;
+            display: flex;
+            margin: 1em 1em 1em 0;
+            color: $primary-color;
+            .svg-inline--fa.fa-arrow-down {
                 position: absolute;
-                top: 0;
-                left: 0;
+                left: calc(110px - (#{$fa-arrow-down_size} / 2 + 3.5px));
+                width: $fa-arrow-down_size;
+                height: calc(25px + 2vmin);
             }
-            .link {
-                max-width: fit-content;
-                .arrows_group {
-                    position: relative;
-                    display: flex;
-                    margin: 1em 1em 1em 0;
-                    color: #ff4d4d;
-                    .svg-inline--fa.fa-arrow-down {
-                        position: absolute;
-                        left: calc(110px - (#{$svg-inline--fa_width} / 2 + 3.5px));
-                        width: $svg-inline--fa_width;
-                        height: calc(25px + 2vmin);
-                    }
-                    .svg-inline--fa.fa-arrow-right {
-                        position: absolute;
-                        top: #{$fa-arrow-right_negative};
-                        left: 50px;
-                        width: #{$fa-arrow-right};
-                        height: #{$fa-arrow-right};
-                    }
-                }
+            .svg-inline--fa.fa-arrow-right {
+                position: absolute;
+                top: #{$fa-arrow-right_negative-size};
+                left: 50px;
+                width: #{$fa-arrow-right_size};
+                height: #{$fa-arrow-right_size};
             }
         }
+    }
+}

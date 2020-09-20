@@ -5,18 +5,18 @@ function Hero2(props) {
   return (
     <div className={styles.article_wrapper}>
       <article className={`article ${styles.article_2}`}>
-        <svg className={styles.lines_group} height="70%" width="100vw">
+        <svg className={styles.line_group} height="70%" width="100vw">
           <line
-            className="line line-2"
+            className="line-secondary line-2"
             x1="101%"
             y1="12%"
             x2="40%"
             y2="20%"
           ></line>
         </svg>
-        <svg className={styles.lines_group} height="70%" width="100vw">
+        <svg className={styles.line_group} height="70%" width="100vw">
           <line
-            className="line line-1"
+            className="line-secondary line-1"
             x1="101%"
             y1="30%"
             x2="-1%"
@@ -25,7 +25,7 @@ function Hero2(props) {
         </svg>
         <svg className={styles.line_single} height="80%" width="100vw">
           <line
-            className="line line-2"
+            className="line-secondary line-2"
             x1="101%"
             y1="90%"
             x2="-1%"
@@ -44,7 +44,7 @@ function Hero2(props) {
                 <div className="arrows_group">
                   <svg width="55" height="5">
                     <line
-                      className="line line-3"
+                      className="line-primary line-3"
                       x1="100%"
                       y1="0"
                       x2="0"

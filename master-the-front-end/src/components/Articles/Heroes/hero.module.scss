@@ -62,19 +62,19 @@
         max-width: fit-content;
     }
     
-    .lines_group,
+    .line_group,
     .line_single {
         display: none;
     }
     
-    .lines_group,
+    .line_group,
     .line_single {
         position: absolute;
         top: 0;
         left: 0;
     }
     
-    .lines_group {
+    .line_group {
         z-index: 20;
     }
     
@@ -166,7 +166,7 @@
                 max-width: 50ch;
             }
         }
-        .lines_group,
+        .line_group,
         .line_single {
             display: block;
         }
