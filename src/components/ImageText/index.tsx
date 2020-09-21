@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { DetailedHTMLProps, ImgHTMLAttributes } from 'react';
 
 import {ReactComponent as Bar} from '../../svgs/imageTextBar.svg';
 import {ReactComponent as Arrow} from '../../svgs/footerArrow.svg';
@@ -6,14 +6,18 @@ import {ReactComponent as Arrow} from '../../svgs/footerArrow.svg';
 
 import styles from './ImageText.module.scss';
 
-export default function ImageText(){
+interface IImageText{
+    children: string;
+}
+
+export default function ImageText({children, ...props}: IImageText&DetailedHTMLProps<ImgHTMLAttributes<HTMLImageElement>, HTMLImageElement>){
     return (
         <section className={styles['image-text']}>
-            <img className={styles.image} src="https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/text-media-right.png" alt="" />
+            <img className={styles.image} alt="" {...props} />
             <div className={styles.content}>
                 <div className={styles['text-container']}>
                     <p className={styles.text}>
-                        We use tools like NPM/Gulp/Webpack to preprocess files and PostCSS for some mean, lean, killing machine code and React JS is taking over WordPress one step at a time.
+                        {children}
                     </p>
                     <Bar className={styles.bar} />
                 </div>

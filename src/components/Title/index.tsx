@@ -36,14 +36,12 @@ export default function Titles({children, screenWidthCols}: ITitlesProps){
     return (
         <section className={styles.titles}>
             <div className={styles["arrow-container"]}><Arrow /></div>
-
-                {columns && columns.map((ele, i) => <div key={i} className={styles.column}>{[...ele]}</div>)}
-            
+            {columns && columns.map((ele, i) => <div key={i} className={styles.column}>{[...ele]}</div>)}
         </section>
     )
 }
 
-interface ITitleCardProps{
+export interface ITitleCardProps{
     image?: string
     "image-alt"?: string
     date?: string
@@ -69,7 +67,10 @@ export function TitleCard({image, "image-alt": imageAlt, type, date, author, tit
             </header>
             {author && <p className={styles.author}>{authorHref ? <a href={authorHref}>{author}</a> : {author}}</p>}
             {title && <h2 className={styles.title}>{href ? <a href={href}>{title}</a> : {title}}</h2>}
-            <ArrowRight className={styles['arrow-right']} />
+            {href 
+                ? <a href={href}><ArrowRight className={styles['arrow-right']} /></a>
+                : <ArrowRight className={styles['arrow-right']} />
+            }
         </article>
     )
 }

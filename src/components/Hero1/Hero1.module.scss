@@ -6,23 +6,41 @@
     position: relative;
     padding: 30px $sideMargin 0;
 
-    .background-1{
+    .svg-container1{
+        width: 100%;
+        height: 0;
         position: absolute;
         top: 20px;
         left: 0;
-        width: 100%;
-        height: auto;
+        padding-bottom: 100% * 556 / 1400;
         z-index: -1;
+    }
+
+    .svg-container2{
+        width: 100%;
+        height: 0;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        padding-bottom: 100% * 447 / 1400;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .background-1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
     
     .background-2{
         position: absolute;
-        top: 20px;
+        top: 0;
         left: 0;
         width: 100%;
-        height: auto;
-        z-index: 2;
-        pointer-events: none;
+        height: 100%;
     }
     
     .title{

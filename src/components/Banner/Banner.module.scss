@@ -1,6 +1,7 @@
 @import '../../styles/variables';
 
 .banner{
+    margin: $padding 0;
     .container{
         position: relative;
         margin-top: $padding;
@@ -91,12 +92,12 @@
 
     .arrow-down-container{
         display: flex;
-        justify-content: flex-end;
-        margin-right: $padding + 30;
+        justify-content: center;
+        padding: 0 $padding;
 
         .arrow-down{
-            height: 22px;
-            width: 60px;
+            height: 47px;
+            width: 126px;
         }
     }
 }
@@ -111,7 +112,7 @@
     }
 }
 
-@media(min-width: 700px){
+@media(min-width: 750px){
     .banner{
         .container{
             margin-top: $padding * 2;
@@ -155,11 +156,7 @@
 
         .arrow-down-container{
             margin-top: 70px;
-            
-            .arrow-down{
-                height: 40px;
-                width: 107px;
-            }
+            justify-content: flex-end;
         }
     }
 }

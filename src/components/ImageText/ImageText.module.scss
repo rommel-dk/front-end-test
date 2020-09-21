@@ -41,7 +41,8 @@
 
     .arrow{
         margin-bottom: -140px;
-        margin-left: 30%;
+        margin-left: 40%;
+        transform: translateX(-50%);
         width: 249px;
         height: 237px;
     }
@@ -51,6 +52,7 @@
     .image-text{
         .arrow{
             margin-left: 0;
+            transform: none;
         }
     }
 }

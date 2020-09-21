@@ -24,10 +24,14 @@ export default function Hero1({title, children}: IHero1){
 
     return( 
         <section className={styles["hero-1"]}>
-            <Background1 className={styles['background-1']} />
+            <div className={styles["svg-container1"]}>
+                <Background1 className={styles['background-1']} />
+            </div>
             <h1 className={styles.title}>{usableTitle}</h1>
             <p className={styles.text}>{children}</p>
-            <Background2 className={styles['background-2']} />
+            <div className={styles["svg-container2"]}>
+                <Background2 className={styles['background-2']} />
+            </div>
         </section>
     );
 }

@@ -20,7 +20,9 @@ export default function Hero2({title, subtitle, children}: IHero2Props){
     </>;
     return (
         <section className={styles['hero-2']}>
-            <Background1 className={styles['background-1']} />
+            <div className={styles['svg-container']}>
+                <Background1 className={styles['background-1']} />
+            </div>
             <div className={styles.content}>
                 <h1 className={styles.title}>{usableTitle}</h1>
                 <h2 className={styles.subtitle}>
@@ -29,7 +31,9 @@ export default function Hero2({title, subtitle, children}: IHero2Props){
                 </h2>
                 <p className={styles.text}>{children}</p>
             </div>
-            <Background2 className={styles['background-2']} />
+            <div className={styles['svg-container']}>
+                <Background2 className={styles['background-2']} />
+            </div>
         </section>
     )
 }

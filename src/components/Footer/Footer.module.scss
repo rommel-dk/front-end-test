@@ -10,8 +10,12 @@
     padding: (140px + $sideMargin) $sideMargin $sideMargin;
 
     .content{
-        color: #FFF064;
         text-align: center;
+
+        * {
+            color: #FFF064;
+            text-decoration: none;
+        }
 
         .big-text{
             margin: 0;
