@@ -2,6 +2,10 @@ import React from "react";
 import styles from "./hero.module.scss";
 
 function Hero2(props) {
+  const titleClone = props.hero.title.replace(
+    "Your ch",
+    "<span style='visibility:hidden;'>Your\xa0ch</span>"
+  );
   return (
     <div className={styles.article_wrapper}>
       <article className={`article ${styles.article_2}`}>
@@ -9,31 +13,32 @@ function Hero2(props) {
           <line
             className="line-secondary line-2"
             x1="101%"
-            y1="12%"
-            x2="40%"
-            y2="20%"
+            y1="11%"
+            x2="36%"
+            y2="26%"
           ></line>
         </svg>
         <svg className={styles.line_group} height="70%" width="100vw">
           <line
             className="line-secondary line-1"
             x1="101%"
-            y1="30%"
+            y1="40%"
             x2="-1%"
-            y2="80%"
+            y2="90%"
           ></line>
         </svg>
-        <svg className={styles.line_single} height="80%" width="100vw">
+        <svg className={styles.line_single} height="85%" width="100vw">
           <line
             className="line-secondary line-2"
             x1="101%"
-            y1="90%"
+            y1="85%"
             x2="-1%"
-            y2="35%"
+            y2="31%"
           ></line>
         </svg>
         <div className={styles.title_group}>
           <h1>{props.hero.title}</h1>
+          <h1 dangerouslySetInnerHTML={{ __html: titleClone }}></h1>
         </div>
         <div className={styles.title_link_group}>
           <h2>
