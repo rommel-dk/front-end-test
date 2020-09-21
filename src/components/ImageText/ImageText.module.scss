@@ -24,6 +24,7 @@
             z-index: 2;
             margin: 0;
             font-size: 30px;
+            font-family: 'ArticulatCFv2';
             text-align: center;
         }
 
@@ -40,8 +41,9 @@
 
     .arrow{
         margin-bottom: -140px;
-        margin-left: 50%;
-        transform: translateX(-60%);
+        margin-left: 30%;
+        width: 249px;
+        height: 237px;
     }
 }
 
@@ -49,7 +51,6 @@
     .image-text{
         .arrow{
             margin-left: 0;
-            transform: unset;
         }
     }
 }
@@ -85,8 +86,9 @@
             }
 
             .bar{
-                transform: unset;
-                max-width: 50%;
+                transform: none;
+                max-width: 45%;
+                width: 500px;
                 left: 0;
                 bottom: -40px;
             }
@@ -98,17 +100,25 @@
             bottom: -8px;
             margin: 0;
             height: 150px;
-            width: auto;
-            transform: unset;
+            width: 157px;
         }
     }
 }
 
 @media(min-width: 1200px){
     .image-text{
+        .text-container{
+            .bar{
+                transform: none;
+                max-width: 60%;
+                width: 600px;
+            }
+        }
+
         .arrow{
             bottom: -46px;
-            height: auto;
+            height: 237px;
+            width: 249px;
         }
     }
 }
