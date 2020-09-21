@@ -1,7 +1,6 @@
 # Front-end Assignment Solution
 
 To solve the assignment, I created 7 components:<br />
-
 :point_right: [Hero1](https://github.com/benada002/front-end-test/tree/solution-react/src/components/Hero1)<br />
 :point_right: [Titles](https://github.com/benada002/front-end-test/tree/solution-react/src/components/Title)<br />
 :point_right: [Hero2](https://github.com/benada002/front-end-test/tree/solution-react/src/components/Hero2)<br />
