@@ -1,40 +1,30 @@
 
-# Front-end Assignment
+This project was solved by [Usman Kiyani](https://kiyani.xyz/).
 
-Hello! And Welcome!
+  
 
-This assignment is a way for us to assess that you're able to translate design into code and how you would normally structure your code and is part of our [job posting on The Hub](https://thehub.io/jobs/5f3e92784b57fc757f36b3f4).
+# Complete Rommel-dk/front-end-test
 
-## The assignment
+  
 
-The assignment is - in short - to convert  the [design/master-the-front-end.pdf](https://raw.githubusercontent.com/rommel-dk/front-end-test/master/design/master-the-front-end.pdf) design to HTML/CSS (we have also provided the design as a [Figma](http://figma.com/) file if you want to get a few more details).
+ 1. Cd into the directory **front-end-assignment**
+ 2. ### `npm install`
+ 3. ### `npm run dev` (this will start dev and json-server)
 
-There are no strict "rules" for the execution of the assignment except that it should be responsive and delivered to us as a pull-request. The ultimate goal is to create the design as lean, neat and simple as possible. 
+## 100% React based project
+First of all thank you for giving me this opportunity.
+The whole website is build with create-react-app and contains 100% functional components with react hooks. 
+I have used Json-Server package for “local requesting” the data you gave me (data.json).
+The assignment was fun and challenging and I hope the result pleases the requirements.
+I have tried to keep my styling cross browser friendly, however I do use properties like CSS custom properties (variable) for the colors, because of the time and simplicity. 
 
-Feel free to still do the assignment even though you do not have the time to complete it but instead create a `readme.md` file or a description in the pull request where you explain what you would have done and why you selected to create the parts you did.
+My personal approach would be using a CSS preprocessor like Sass with the BEM methodology or maybe go with a scooping approach like CSS-Modules and of course Post-Css :)  
 
-### Requirements
+The article grid is made with CSS Grid and a little bit of javascript and it works perfectly, however I may consider using a finish-made library for this kind of job like Masonry.js.
+I didn't go too crazy with the media query breakpoints, but just enough to make my point with the design.
 
-The base requirements are simple: create a HTML/CSS version of the design following the Mobile First methodology.
+I believe communication is key and at the end of the day, I will always talk to the designer and the tester as much as I can to clear things out.
 
-* Responsive and Mobile First
-* Make a pull request with your results to this repository.
-
-### Wishlist
-
-We would love to see that you're capable of some of the following skills:
-
-* Building components with React JS
-* Animations where you deem it relevant
-* Running git commits (so not just one at the end saying "initial commit")
-* Cross-browser support (sadly IE11 is still haunting our daily lives)
-* Component tests (Ex: Jest)
-* No use of 3. party HTML/CSS grid or component frameworks
-* _Your own creativity**_
-
-_** Feel free to display your own creativity in the assignment. An example of this would be to fetch the articles in the grid from a JSON object or replacing them with an API service to display latest articles from another source. We only wish that the "soul" of the project still remains when you're done._
-
-### Skip the line
-
-_*You can skip the line and go straight to an interview if you're able to re-create the design in a WordPress website using React based Gutenberg blocks (red: not ACF blocks or similar) while maintaning a good structure and pretty code.*_
-
+Best regards
+[Usman Kiyani](https://kiyani.xyz/)
+  
