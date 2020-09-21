@@ -1,0 +1,105 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --action-color: #F54E52;
+  --primary-color: #000000;;
+  --secondary-color: #DABABA;
+
+  --light-blue-color: #7DF7FF;
+  --blue-color:#4E7FFA;
+  --yellow-color: #FFF064;
+}
+
+html{
+  font-size: 62.5%;
+
+}
+
+.App{
+ overflow: hidden;
+}
+
+/*******************/
+/* Typography */
+/*******************/
+
+/* Medium */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCF-Medium.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* DemiBold */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCFv2-DemiBold.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCFv2-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* ExtraBold */
+@font-face {
+  font-family: 'articulatcf';
+  src: url(./assets/fonts/ArticulatCF-ExtraBoldOblique.ttf);
+  font-style: italic;
+  font-weight: 800;
+}
+
+
+
+/* Media Queries/Breakpoints 
+******************************
+
+ @media (min-width: 480px) {
+ 
+}
+@media (min-width: 768px) {
+ 
+}
+@media (min-width: 992px) {
+ 
+}
+@media (min-width: 1200px) {
+
+} 
+******************************/
+
+
+
+h3{
+
+}
+
+
+/* p{
+  font-family: 'articulatcf';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2rem;
+} */
+
+/* Utility Classes */
+
+.u-h-wrapper{
+  padding: 0 2rem;
+  /* max-width: 160rem; */
+  max-width: 140rem;
+  margin: auto;
+}
