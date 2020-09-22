@@ -1,0 +1,140 @@
+@import '../../styles/variables';
+
+.hero-2{
+    box-sizing: border-box;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 $sideMargin;
+
+    .svg-container{
+        width: 100%;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-bottom: 100% * 481 / 1400;
+    }
+
+    .background-1{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+    }
+
+    .background-2{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .title{
+        font-size: $titleFontSizeXs;
+        font-family: 'ArticulatCFv2';
+        line-height: 1em;
+        margin-top: .8em;
+        margin-bottom: .4em;
+        text-align: center;
+        flex-grow: 1;
+
+        .not-overlapped{
+            position: relative;
+            z-index: 3;
+        }
+    }
+
+    .subtitle{
+        font-size: 20px;
+        font-family: 'ArticulatCF';
+        margin: 0;
+        text-align: center;
+        z-index: 3;
+
+        .arrow{
+            display: inline;
+            vertical-align: middle;
+             margin-left: .7em;
+
+            svg{
+                height: 1em;
+                width: 3em;
+            }
+        }
+    }
+
+    .text{
+        text-align: center;
+        font-size: 18px;
+        font-family: 'ArticulatCF';
+        z-index: 3;
+    }
+}
+
+@media(min-width: 500px){
+    .hero-2{
+        .title{
+            font-size: $titleFontSizeS;
+        }
+
+        .subtitle{
+            font-size: 30px;
+            text-align: left;
+            max-width: 350px;
+            align-self: flex-start;
+        }
+
+        .text{
+            text-align: left;
+            max-width: 570px;
+            align-self: flex-start;
+        }
+    }
+}
+
+@media(min-width: 600px){
+    .hero-2{
+        .title{
+            font-size: $titleFontSizeM;
+        }
+    }
+}
+
+@media(min-width: 950px){
+    .hero-2{
+        .title{
+            font-size: $titleFontSizeL;
+            margin-top: 1.1em;
+        }
+    }
+}
+
+@media(min-width: 1400px){
+    .hero-2{
+        .title{
+            font-size: $titleFontSizeXl;
+        }
+    }
+}
+
+@media(min-width: 1600px){
+    .hero-2{
+        .title{
+            margin-top: 1.4em;
+        }
+    }
+}

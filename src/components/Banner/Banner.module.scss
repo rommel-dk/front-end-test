@@ -1,0 +1,208 @@
+@import '../../styles/variables';
+
+.banner{
+    margin: $padding 0;
+    .container{
+        position: relative;
+        margin-top: $padding;
+
+        .image-container{
+            position: relative;
+            z-index: -1;
+        }
+
+        .image{
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .bar{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 60px;
+            background-color: #000;
+            opacity: 0.4;
+        }
+
+        .big-info{
+            position: relative;
+            text-align: center;
+            margin: 0 $sideMargin;
+
+            .subtitle{
+                position: relative;
+                color: #F54E52;
+                margin-bottom: .3em;
+                font-weight: 800;
+                font-family: 'ArticulatCF';
+                font-size: 35px;
+                z-index: 2;
+                text-transform: uppercase;
+                margin-bottom: .2em;
+            }
+
+            .title{
+                position: relative;
+                margin-top: 0;
+                font-weight: 500;
+                font-size: 40px;
+                font-family: 'ArticulatCFv2';
+                line-height: 1em;
+                z-index: 2;
+            }
+
+            .title-bar{
+                position: absolute;
+                bottom: 0px;
+                right: 50%;
+                transform: translateX(45%);
+                width: 250px;
+                height: 28px;
+            }
+        }
+
+        .info{
+            padding: $sideMargin;
+            text-align: center;
+            box-sizing: border-box;
+
+            .meta{
+                font-size: 15px;
+                font-family: 'Articulat CF v2';
+                margin-top: 0;
+                font-weight: 700;
+            }
+
+            .summary{
+                font-family: 'ArticulatCF';
+                font-size: 13px;
+                margin-top: 0;
+            }
+
+            .arrow{
+                height: 17px;
+                width: 54px;
+            }
+        }
+    }
+
+    .arrow-down-container{
+        display: flex;
+        justify-content: center;
+        padding: 0 $padding;
+
+        .arrow-down{
+            height: 47px;
+            width: 126px;
+        }
+    }
+}
+
+@media(min-width: 500px){
+    .banner{
+        .container{
+            .info{
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media(min-width: 750px){
+    .banner{
+        .container{
+            margin-top: $padding * 2;
+
+            .image-container{
+                margin-right: $padding;
+            }
+        
+            .big-info{
+                position: absolute;
+                bottom: -50px;
+                right: $padding;
+                text-align: right;
+                margin: 0;
+
+                .subtitle{
+                    margin-right: 25px;
+                    font-size: 35px;
+                }
+
+                .title{
+                    font-size: 40px;
+                    margin: 0;
+                }
+
+                .title-bar{
+                    bottom: 0;
+                    right: 10px;
+                    transform: none;
+                }
+            }
+        
+            .info{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color: #fff;
+                max-width: 230px;
+            }
+        }
+
+        .arrow-down-container{
+            margin-top: 70px;
+            justify-content: flex-end;
+        }
+    }
+}
+
+@media(min-width: 950px){
+    .banner{
+        .container{
+            .big-info{
+                .subtitle{
+                    font-size: 50px;
+                }
+
+                .title{
+                    font-size: 60px;
+                }
+
+                .title-bar{
+                    bottom: 0;
+                    right: 30px;
+                    height: 40px;
+                    width: 350px;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 1400px){
+    .banner{
+        .container{
+            .big-info{
+                .subtitle{
+                    font-size: 90px;
+                }
+
+                .title{
+                    font-size: 100px;
+                }
+
+                .title-bar{
+                    bottom: -10px;
+                    right: $padding;
+                    width: 550px;
+                    height: 62px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+$fonts: (
+    'ArticulatCF': (
+        'type': (
+            'otf': 'opentype',
+            'ttf': 'truetype'
+        ),
+        'strength': (
+            'DemiBoldOblique',
+            'ExtraBold',
+            'ExtraBoldOblique',
+            'ExtraLight',
+            'ExtraLightOblique',
+            'Heavy',
+            'HeavyOblique',
+            'Light',
+            'LightOblique',
+            'Medium',
+            'MediumOblique',
+            'Thin',
+            'ThinOblique'
+        )
+    ),
+    'ArticulatCFv2': (
+        'type': (
+            'otf': 'opentype',
+            'ttf': 'truetype'
+        ),
+        'strength': (
+            'Bold',
+            'BoldOblique',
+            'DemiBold'
+        )
+    )
+);
+
+@each $fontName, $font in $fonts {
+    @each $strength in map-get($font, 'strength') {
+        $srcs: null;
+
+        @each $type, $format in map-get($font, 'type') {
+            $srcs: append($srcs, url('../fonts/#{$fontName}-#{$strength}.#{$type}') format('#{$format}'), comma);
+        }
+
+        @font-face {
+            font-family: '#{$fontName}#{$strength}';
+            src: $srcs;
+        }
+    }
+}

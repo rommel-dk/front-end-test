@@ -1,0 +1,82 @@
+@import '../../styles/variables';
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    margin-top: -($sideMargin * 2);
+    padding: (140px + $sideMargin) $sideMargin $sideMargin;
+
+    .content{
+        text-align: center;
+
+        * {
+            color: #FFF064;
+            text-decoration: none;
+        }
+
+        .big-text{
+            margin: 0;
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 1em;
+            font-family: 'ArticulatCF';
+        }
+
+        .text{
+            margin-top: 0;
+            font-size: 15px;
+            line-height: 1em;
+            font-family: 'ArticulatCF';
+        }
+    }
+
+    .logo{
+        height: 3em;
+        width: 2.32em;
+    }
+}
+
+@media(min-width: 750px){
+    .footer{
+        flex-direction: row;
+
+        .content{
+            text-align: left;
+            margin-left: $padding;
+        }
+
+        .logo{
+            transform: scale(1.2);
+            margin-left: auto;
+        }
+    }
+}
+
+@media(min-width: 950px){
+    .footer{
+        padding-top: $sideMargin * 3;
+
+        .content{
+            .big-text{
+                font-size: 50px;
+            }
+    
+            .text{
+                font-size: 20px;
+            }
+        }
+
+        .logo{
+            transform: scale(1.4);
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .footer{
+        padding-top: 46 + ($sideMargin * 3);
+    }
+}
