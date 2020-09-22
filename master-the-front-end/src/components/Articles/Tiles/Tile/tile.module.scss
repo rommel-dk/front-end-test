@@ -1,7 +1,9 @@
 @import '../../../../assets/styles/includes/_colors.scss';
+@import '../../../../assets/styles/includes/_vars.scss';
 .tile {
     position: relative;
     width: 100%;
+    font-family: "Articulat CF v2 Demi Bold";
     img {
         width: 100%;
     }
@@ -11,7 +13,6 @@
         top: 0;
         background-color: white;
         padding: 1em;
-        font-weight: bold;
     }
     h1 {
         font-size: 1.625em;
@@ -20,6 +21,10 @@
         font-size: 1.5em;
         color: $alt-color;
     }
+}
+
+.arrow_right_small {
+    width: $fa-arrow-small_size;
 }
 
 // Laptop

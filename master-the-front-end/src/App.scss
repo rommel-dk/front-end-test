@@ -1,5 +1,25 @@
 @import '/assets/styles/includes/_vars.scss';
 @import '/assets/styles/includes/_colors.scss';
+@font-face {
+    font-family: 'Articulat CF v2 Demi Bold';
+    src: url('./assets/fonts/ArticulatCFv2-DemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Articulat CF v2 Bold';
+    src: url('./assets/fonts/ArticulatCFv2-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Articulat CF Extra Bold';
+    src: url('./assets/fonts/ArticulatCF-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Articulat CF Medium';
+    src: url('./assets/fonts/ArticulatCF-Medium.ttf');
+}
+
 .article {
     background-color: #fff;
     color: black;
@@ -27,7 +47,7 @@
             color: $primary-color;
             .svg-inline--fa.fa-arrow-down {
                 position: absolute;
-                left: calc(110px - (#{$fa-arrow-down_size} / 2 + 3.5px));
+                left: calc(110px - (#{$fa-arrow-down_size} / 2+3.5px));
                 width: $fa-arrow-down_size;
                 height: calc(25px + 2vmin);
             }

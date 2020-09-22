@@ -13,16 +13,16 @@ function Hero1(props) {
           <line
             className="line-primary line-1"
             x1="101%"
-            y1="4%"
+            y1="5%"
             x2="-1%"
-            y2="78%"
+            y2="76%"
           ></line>
           <line
             className="line-primary line-1"
             x1="101%"
             y1="45%"
             x2="-1%"
-            y2="80%"
+            y2="77%"
           ></line>
         </svg>
         <svg className={styles.line_single} height="80%" width="100vw">
@@ -31,7 +31,7 @@ function Hero1(props) {
             x1="101%"
             y1="92%"
             x2="-1%"
-            y2="53%"
+            y2="48%"
           ></line>
         </svg>
         <div className={styles.title_group}>

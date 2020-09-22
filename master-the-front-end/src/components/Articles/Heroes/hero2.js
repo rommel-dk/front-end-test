@@ -14,7 +14,7 @@ function Hero2(props) {
             className="line-secondary line-2"
             x1="101%"
             y1="11%"
-            x2="36%"
+            x2="38%"
             y2="26%"
           ></line>
         </svg>
@@ -24,7 +24,7 @@ function Hero2(props) {
             x1="101%"
             y1="40%"
             x2="-1%"
-            y2="90%"
+            y2="80%"
           ></line>
         </svg>
         <svg className={styles.line_single} height="85%" width="100vw">
