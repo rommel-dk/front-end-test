@@ -4,6 +4,7 @@ import "./global.styles.css"
 import Section from "./components/section.components/Section";
 import Header from "./components/header.components/Header";
 import SubHeader from "./components/header.components/SubHeader";
+import Banner from "./components/banner.components/Banner";
 import assignmentData from "./assignment-assets/data.json";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           description={assignmentData['hero-2'].description}
         />
       </div>
+      <Banner/>
     </div>
   );
 }
