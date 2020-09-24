@@ -1,8 +1,9 @@
 .banner-section{
     margin-right: 2rem;
-    width: 100%;
 }
 .banner-author-section {
+    width: 100%;
+    margin-right: 2rem;
     position: relative;
     margin-bottom: 1rem;
 }
@@ -37,12 +38,13 @@
 .banner-extra-subtitle {
     position: absolute;
     text-align: end;
+    line-height: 3rem;
     bottom: 2rem;
     right: 0;
-    margin-bottom: -8rem;
+    margin-bottom: -10rem;
 }
 .banner-extra-subtitle > h1 {
-    font-size: xx-large;
+    font-size: 3rem;
     font-weight: bolder;
 }
 .angle-arrowRev {
@@ -75,19 +77,50 @@
 
 /* Media Queries */
 
-@media all and (max-width:1000px) {
+@media all and (max-width:768px) {
+    .banner-author-section {
+        width: 100%;
+    }
     .banner-image {
         width: 100%;
     }
+    .title-subtitle-section {
+        margin-bottom: -8rem;
+    }
+    .banner-extra-subtitle {
+        margin-bottom: -20%;
+        bottom: 3rem;
+        font-weight: bolder;
+        line-height: 2rem;
+    }
+    .banner-extra-subtitle > h1 {
+        font-size: 1.5rem;
+    }
 }
-@media screen and (max-width:700px) {
-    .banner-image {
-        width: 100%;
-    } 
+@media screen and (max-width:700px) {    
+    .banner-contents {       
+        height: 15rem;
+        max-width: 9.7rem;
+    }
+    .title-subtitle-section {
+        position: absolute; 
+        bottom: 0;
+        bottom: 2rem;
+        margin-bottom: -8rem;
+    }
+    .banner-extra-subtitle {
+        margin-bottom: -10%;
+        line-height: 1.5rem;
+        bottom: 3rem;
+    }
+    .banner-extra-subtitle > h1 {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
 }
 @media screen and (max-width:400px) {
-    .banner-section {
-        margin-right: 2rem;
+    .banner-image {
+        width: 100%;
     }
     .title-subtitle-section {
         position: absolute; 
@@ -105,11 +138,12 @@
         background: white;
     }
     .banner-extra-subtitle {
-        margin-bottom: -12%;
+        margin-bottom: -10%;
         bottom: 3rem;
     }
     .banner-extra-subtitle > h1 {
-        font-size: large;
+        font-size: 1rem;
+        line-height: 1.3rem;
         font-weight: bolder;
     }
 }

@@ -5,6 +5,7 @@ import Section from "./components/section.components/Section";
 import Header from "./components/header.components/Header";
 import SubHeader from "./components/header.components/SubHeader";
 import Banner from "./components/banner.components/Banner";
+import Footer from "./components/footer.components/Footer";
 import assignmentData from "./assignment-assets/data.json";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         />
       </div>
       <Banner/>
+      <Footer/>
     </div>
   );
 }
