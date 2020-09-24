@@ -1,8 +1,8 @@
 .banner-section{
+    width: 100%;
     margin-right: 2rem;
 }
 .banner-author-section {
-    width: 100%;
     margin-right: 2rem;
     position: relative;
     margin-bottom: 1rem;
@@ -12,7 +12,7 @@
 }
 .banner-image {
     position: relative;
-    width: 100%; 
+    max-width: 100%; 
 }
 .banner-contents {
     position: absolute;
@@ -20,7 +20,7 @@
     margin-bottom: 3px;
     border-bottom: 1px solid gray;
     height: 12rem;
-    max-width: 15rem;
+    max-width: 18%;
     padding: 1.5rem;
     background: white;
 }
@@ -77,38 +77,32 @@
 
 /* Media Queries */
 
-@media all and (max-width:768px) {
-    .banner-author-section {
+@media screen and (min-width: 401px) and (max-width:800px) {  
+    .banner-section{
+        margin-top: -3rem;
         width: 100%;
+        display: flex;
+    }
+    .banner-author-section {
+        width: 75%;
+        margin-left: 5rem;
     }
     .banner-image {
         width: 100%;
     }
-    .title-subtitle-section {
-        margin-bottom: -8rem;
-    }
-    .banner-extra-subtitle {
-        margin-bottom: -20%;
-        bottom: 3rem;
-        font-weight: bolder;
-        line-height: 2rem;
-    }
-    .banner-extra-subtitle > h1 {
-        font-size: 1.5rem;
-    }
-}
-@media screen and (max-width:700px) {    
     .banner-contents {       
-        height: 15rem;
-        max-width: 9.7rem;
+        height: 20rem;
+        max-width: 40%;
+        margin-left: 2%;
     }
     .title-subtitle-section {
+        width: 90%;
         position: absolute; 
-        bottom: 0;
-        bottom: 2rem;
+        bottom: 3rem;
         margin-bottom: -8rem;
     }
     .banner-extra-subtitle {
+        width: 30%;
         margin-bottom: -10%;
         line-height: 1.5rem;
         bottom: 3rem;
@@ -116,13 +110,14 @@
     .banner-extra-subtitle > h1 {
         font-size: 1.5rem;
         font-weight: bolder;
-    }
+    } 
 }
 @media screen and (max-width:400px) {
     .banner-image {
         width: 100%;
     }
     .title-subtitle-section {
+        width: 98%;
         position: absolute; 
         bottom: 0;
         bottom: 2rem;
