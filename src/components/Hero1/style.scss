@@ -1,0 +1,126 @@
+$desktop: 1520px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
+.hero-1 {
+   .container {
+      width: 80vw;
+      display: flex;
+      flex-direction: column;
+      margin: 100px auto;
+
+      h1 {
+         width: 65%;
+         font-size: 8em;
+         line-height: 135px;
+         font-family: ArticulatCFv2-Bold;
+      }
+
+      p {
+         margin-top: 70px;
+         width: 950px;
+         font-size: 1.6rem;
+         line-height: 40px;
+         font-family: ArticulatCF;
+      }
+
+      a {
+         margin: 0;
+      }
+   }
+
+   .line1 {
+      position: absolute;
+      width: 100vw;
+      height: 1.5rem;
+      background-color: rgb(226, 71, 50);
+      top: 400px;
+      transform: skewY(-7deg);
+      z-index: -1;
+   }
+   .line2 {
+      position: absolute;
+      width: 100vw;
+      height: 1.5rem;
+      background-color: rgb(226, 71, 50);
+      top: 250px;
+      transform: skewY(-15deg);
+      z-index: -1;
+   }
+   .line3 {
+      position: absolute;
+      width: 100vw;
+      height: 5rem;
+      background-color: rgb(226, 71, 50);
+      top: 450px;
+      transform: skewY(13deg);
+      z-index: -1;
+   }
+}
+
+//? desktop
+
+@media (max-width: $desktop) {
+   .hero-1 {
+      .container {
+         width: 80vw;
+         margin: 150px auto;
+         h1 {
+            font-size: 7em;
+            width: 80%;
+         }
+         p {
+            font-size: 1.3em;
+            width: 90%;
+         }
+      }
+   }
+}
+
+//? laptop
+@media (max-width: $laptop) {
+   .hero-1 {
+      .container {
+         width: 80vw;
+
+         h1 {
+            font-size: 6rem;
+            width: 90%;
+         }
+
+         p {
+            font-size: 1.3em;
+            width: 90%;
+         }
+      }
+   }
+}
+
+//?  tablet
+@media (max-width: $tablet) {
+   .hero-1 {
+      max-width: 100%;
+      .container {
+         width: 90vw;
+         margin: 50px auto;
+         h1 {
+            font-size: 2.7em;
+            line-height: 3rem;
+            width: 100%;
+         }
+         p {
+            font-size: 1em;
+            width: 100%;
+         }
+      }
+      .line3 {
+         top: 100px;
+         right:  100px;
+      }
+      .line2,
+      .line1 {
+         display: none;
+      }
+   }
+}

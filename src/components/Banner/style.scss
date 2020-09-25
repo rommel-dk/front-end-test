@@ -1,0 +1,137 @@
+$desktop: 1220px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
+.banner {
+   width: 100vw;
+   .container {
+      height: 110vh;
+
+      .box-image {
+         position: relative;
+         img {
+            width: 95vw;
+         }
+         .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 310px;
+            padding: 25px;
+            background-color: white;
+            h3 {
+               margin: 10px 0;
+            }
+            p {
+               margin: 0;
+               font-family: ArticulatCF-Medium;
+            }
+
+           
+         }
+      }
+      .banner-title {
+         text-align: right;
+         margin: 4rem;
+         transform: translateY(-50%);
+         position: relative;
+
+         .subtitle {
+            text-transform: uppercase;
+            margin-right: 3rem;
+            font-family: ArticulatCFv2-BoldOblique;
+         }
+         h1 {
+            font-size: 6rem;
+            font-family: ArticulatCFv2-Bold;
+         }
+
+         .line {
+            position: absolute;
+            width: 30rem;
+            height: 2rem;
+            background-color: var(--light-blue);
+            right: 7rem;
+            transform: skewY(5deg) translateY(-100%);
+            z-index: -1;
+            a {
+               position: absolute;
+               transform: skewY(-5deg) translateX(-150px) scale(0.8);
+               right: 0;
+            }
+         }
+      }
+   }
+}
+
+//? laptop
+
+@media (max-width: $laptop) {
+   .banner {
+      .container {
+      height: 70vh;
+
+         .box-image {
+            .description {
+               top: 100px;
+            }
+         }
+         .banner-title {
+            text-align: right;
+            margin: 5rem 4rem;
+            transform: translateY(-40%);
+            position: relative;
+
+            h1 {
+               font-size: 4.5rem;
+            }
+            a {
+               margin-right: 7rem;
+               line-height: 100px;
+               margin: 0;
+            }
+            .line {
+               width: 15rem;
+               right: 3rem;
+            }
+         }
+      }
+   }
+}
+//? tablet
+
+@media (max-width: $tablet) {
+   .banner {
+      .container {
+      height: 70vh;
+         .box-image {
+            .description {
+               top: 100px;
+            }
+         }
+         .banner-title {
+            text-align: right;
+            margin: 5rem auto;
+            transform: translateY(10%);
+            position: relative;
+
+            h1 {
+               font-size: 2.5rem;
+            }
+            a {
+               margin-right: 7rem;
+               line-height: 100px;
+               margin: 0;
+            }
+            .line {
+               width: 15rem;
+               right: 3rem;
+            }
+         }
+      }
+   }
+}
+
+@media (max-width: $phone) {
+}
