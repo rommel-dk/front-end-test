@@ -1,0 +1,58 @@
+
+
+:root {
+   --red: #f54e52;
+   --light-blue: #7df7ff;
+   --blue: #4e7ffa;
+   --yellow: #fff064;
+}
+
+@font-face {
+   font-family: ArticulatCF;
+   src: url('./assignment-assets/fonts/ArticulatCF-ExtraBold.ttf');
+}
+@font-face {
+   font-family: ArticulatCFv2-Bold;
+   src: url('./assignment-assets/fonts/ArticulatCFv2-Bold.ttf');
+}
+
+@font-face {
+   font-family: rticulatCF-HeavyOblique;
+   src: url('./assignment-assets/fonts/ArticulatCF-HeavyOblique.ttf');
+}
+@font-face {
+   font-family: ArticulatCF-Heavy;
+   src: url('./assignment-assets/fonts/ArticulatCF-Heavy.ttf');
+}
+@font-face {
+   font-family: ArticulatCFv2-BoldOblique;
+   src: url('./assignment-assets/fonts/ArticulatCFv2-BoldOblique.ttf');
+}
+
+
+
+
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+button,
+a {
+   margin: 0;
+}
+button,
+a,
+hr {
+   background: none;
+   border: none;
+   text-decoration: none;
+}

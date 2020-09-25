@@ -1,0 +1,135 @@
+$desktop: 1320px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
+.right-arrow {
+   margin: 40px 0px 80px 0;
+   width: 0;
+
+   .arrowLine {
+      position: relative;
+      border-top: 0.25rem solid var(--red);
+      width: 5rem;
+      background-color: var(--red);
+
+      .arrowTop {
+         position: absolute;
+         width: 1.2rem;
+         height: 1.2rem;
+         border-right: 0.25rem solid var(--red);
+         border-bottom: 0.25rem solid var(--red);
+         right: 0px;
+      }
+      .arrowTop {
+         transform: rotate(-45deg);
+         top: -14.5px;
+      }
+   }
+}
+
+.left-arrow-corner-down {
+   margin: 60px 0;
+   width: 0;
+
+   .arrowLine {
+      transform: rotate(90deg) translateY(-5.5rem);
+      position: relative;
+      border-top: 0.4rem solid var(--red);
+      width: 2.5rem;
+      background-color: var(--red);
+      .arrowHorizontal {
+         position: absolute;
+         border-right: 0.4rem solid var(--red);
+         height: 6.5rem;
+      }
+      .arrowTop {
+         position: absolute;
+         width: 1.5rem;
+         height: 1.5rem;
+         border-right: 0.4rem solid var(--red);
+         border-bottom: 0.4rem solid var(--red);
+         right: 0px;
+      }
+      .arrowTop {
+         transform: rotate(-45deg);
+         top: -19px;
+      }
+   }
+}
+
+.right-arrow-corner-down {
+   margin: 100px 0;
+   transform: rotate(90deg) translateY(-8rem);
+   width: 0;
+
+   .arrowLine {
+      position: relative;
+      width: 12rem;
+      height: 0.4rem;
+      background-color: var(--yellow);
+
+      .arrowHorizontal {
+         position: absolute;
+         border-left: 0.4rem solid var(--light-blue);
+         border-top: 0.4rem solid var(--light-blue);
+         width: 6rem;
+         height: 8rem;
+      }
+      .arrowTop {
+         position: absolute;
+         width: 1.4rem;
+         height: 1.4rem;
+         border-right: 0.4rem solid var(--yellow);
+         border-bottom: 0.4rem solid var(--yellow);
+         right: 0px;
+      }
+      .arrowTop {
+         transform: rotate(-45deg);
+         top: -9.7px;
+      }
+   }
+}
+
+.left-arrow-down {
+   margin: 100px 0;
+   transform: rotate(180deg) scaleY(-1) scale(1.5);
+   width: 0;
+
+   .arrowLine {
+      transform: rotate(90deg) translateY(-4rem);
+      position: relative;
+      border-top: 0.3rem solid var(--red);
+      width: 2rem;
+      background-color: var(--red);
+      .arrowHorizontal {
+         position: absolute;
+         border-right: 0.3rem solid var(--red);
+         height: 5rem;
+      }
+      .arrowTop {
+         position: absolute;
+         width: 1.2rem;
+         height: 1.2rem;
+         border-right: 0.3rem solid var(--red);
+         border-bottom: 0.3rem solid var(--red);
+         right: 0px;
+      }
+      .arrowTop {
+         transform: rotate(-45deg);
+         top: -15px;
+      }
+   }
+}
+@media (max-width: $desktop) {
+   .right-arrow-corner-down {
+      transform: scale(0.7) rotate(90deg);
+      margin: 50px 0px 0 120px;
+   }
+}
+@media (max-width: $phone) {
+   .right-arrow-corner-down {
+      transform: scale(0.8) rotate(90deg);
+      margin: 50px 0px 0 120px;
+   }
+}
