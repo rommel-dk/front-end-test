@@ -1,0 +1,48 @@
+@import '../../../assets/styles/includes/_vars.scss';
+.article {
+    margin-right: 1.5em;
+    img {
+        max-width: 100%;
+    }
+}
+
+.banner {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5em;
+    height: 100%;
+    background-color: #000;
+    opacity: 40%;
+}
+
+.text_frame {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 1px grey;
+    padding: 1em;
+    h3 {
+        font-size: 4vw;
+        margin: 0 0 1em;
+        font-family: "Articulat CF v2 Bold"
+    }
+    p {
+        font-size: 3.5vw;
+        margin: 0 0 1em;
+        font-family: "Articulat CF Medium";
+    }
+}
+
+.arrow_right_small {
+    width: $fa-arrow-small_size;
+}
