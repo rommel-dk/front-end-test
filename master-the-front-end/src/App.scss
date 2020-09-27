@@ -39,6 +39,19 @@
     svg .line-3 {
         stroke-width: 100%;
     }
+    svg .line-4 {
+        stroke-width: 15;
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+        svg .line-4 {
+            stroke-width: 25;
+        }
+    }
+    @media only screen and (min-width: 1280px) {
+        svg .line-4 {
+            stroke-width: 30;
+        }
+    }
     .link {
         display: inline-block;
         max-width: fit-content;
