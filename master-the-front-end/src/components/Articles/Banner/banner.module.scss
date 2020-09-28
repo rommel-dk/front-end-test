@@ -1,5 +1,6 @@
 @import "../../../assets/styles/includes/_vars.scss";
 @import "../../../assets/styles/includes/_colors.scss";
+@import "../../../assets/styles/includes/_animations.scss";
 .article {
     position: relative;
     display: grid;
@@ -93,6 +94,10 @@
     position: relative;
     bottom: 53px;
     left: 0;
+    visibility: hidden;
+    & :local {
+        animation: appearInFromRightShort 2s ease 1s forwards;
+    }
 }
 
 // from Mobile in Landscape Mode to Laptop

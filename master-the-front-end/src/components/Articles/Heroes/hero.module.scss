@@ -86,14 +86,14 @@
     visibility: hidden;
     z-index: 20;
     & :local {
-        animation: appearIn 1s ease forwards;
+        animation: appearInFromRight 1s ease forwards;
     }
 }
 
 .line_single {
     visibility: hidden;
     & :local {
-        animation: appearIn 2s ease 1s forwards;
+        animation: appearInFromLeft 2s ease 1s forwards;
     }
 }
 

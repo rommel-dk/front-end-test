@@ -1,8 +1,34 @@
-@keyframes appearIn {
+@keyframes appearInFromLeft {
     0% {
         opacity: 0;
         visibility: hidden;
         transform: translateX(-80%);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+}
+
+@keyframes appearInFromRight {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(80%);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+}
+
+@keyframes appearInFromRightShort {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(40%);
     }
     100% {
         opacity: 1;
