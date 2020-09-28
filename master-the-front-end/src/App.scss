@@ -1,0 +1,69 @@
+@import "/assets/styles/includes/_vars.scss";
+@import "/assets/styles/includes/_colors.scss";
+@import "/assets/styles/includes/_animations.scss";
+@font-face {
+    font-family: 'Articulat CF v2 Demi Bold';
+    src: url('./assets/fonts/ArticulatCFv2-DemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Articulat CF v2 Bold';
+    src: url('./assets/fonts/ArticulatCFv2-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Articulat CF Extra Bold';
+    src: url('./assets/fonts/ArticulatCF-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Articulat CF Medium';
+    src: url('./assets/fonts/ArticulatCF-Medium.ttf');
+}
+
+.article {
+    background-color: #fff;
+    color: black;
+    svg .line-primary {
+        stroke: $primary-color;
+    }
+    svg .line-secondary {
+        stroke: $secondary-color;
+    }
+    svg .line-1 {
+        stroke-width: 23;
+    }
+    svg .line-2 {
+        stroke-width: 80;
+    }
+    svg .line-3 {
+        stroke-width: 100%;
+    }
+    svg .line-4 {
+        stroke-width: 15;
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+        svg .line-4 {
+            stroke-width: 25;
+        }
+    }
+    @media only screen and (min-width: 1280px) {
+        svg .line-4 {
+            stroke-width: 30;
+        }
+    }
+    .link {
+        display: inline-block;
+        max-width: fit-content;
+        transition: transform 0.3s ease-out;
+        .arrows_group {
+            display: inline-flex;
+        }
+    }
+    .link:hover:not(.down) {
+        transform: translateX(5px);
+    }
+    .link.down:hover {
+        transform: translateY(5px);
+    }
+}
