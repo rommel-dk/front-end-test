@@ -45,7 +45,7 @@ function Banner(props) {
             <line
               className="line-secondary line-4"
               x1="100%"
-              y1="80%"
+              y1="85%"
               x2="1%"
               y2="55%"
             ></line>

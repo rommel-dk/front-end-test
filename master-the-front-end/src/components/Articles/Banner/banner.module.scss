@@ -9,19 +9,21 @@
     margin-right: 1.5em;
     img {
         max-width: 100%;
+        width: -webkit-fill-available;
     }
 }
 
 .banner {
     position: relative;
+    width: -webkit-fill-available
 }
 
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 3px;
     width: 1.5em;
-    height: 100%;
     background-color: #000;
     opacity: 40%;
 }
@@ -89,7 +91,7 @@
 .line_small {
     display: block;
     position: relative;
-    bottom: 50px;
+    bottom: 53px;
     left: 0;
 }
 
@@ -113,12 +115,13 @@
     .titles_line_link_group {
         position: absolute;
         right: 0;
-        top: 60%;
+        top: 62%;
         width: 54%;
         margin: 0;
         text-align: right;
         h2 {
-            font-size: 8vw;
+            font-size: 7.5vw;
+            margin-right: 0.5em;
         }
         h1 {
             font-size: 8vw;
@@ -132,27 +135,25 @@
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1279px) {
-    .line_small {
-        height: 80px;
-        bottom: 72px;
+@media only screen and (min-width: 768px) and (orientation:portrait) {
+    .article {
+        margin-right: 1.75em;
     }
-    .text_frame {
-        width: 17%;
-        height: 35%;
-        h3 {
-            font-size: 1.5vw;
-        }
-        p {
-            font-size: 1.25vw;
-        }
+    .overlay {
+        width: 1.75em;
     }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .article {
+        margin-right: 1.75em;
+    }
+    .overlay {
+        width: 1.75em;
+    }
     .line_small {
-        height: 80px;
-        bottom: 77px;
+        height: 85px;
+        bottom: 76px;
     }
     .text_frame {
         width: 17%;
@@ -165,13 +166,42 @@
         }
     }
     .titles_line_link_group {
-        top: 72%;
-        width: 42%;
+        top: 63%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .article {
+        margin-right: 3.5em;
+    }
+    .overlay {
+        width: 3.5em;
+    }
+    .line_small {
+        height: 108px;
+        bottom: 92px;
+    }
+    .text_frame {
+        width: 13%;
+        height: 28%;
+        h3 {
+            font-size: 1.125vw;
+        }
+        p {
+            font-size: 1vw;
+        }
+    }
+    .titles_line_link_group {
+        top: 69%;
+        width: 44%;
         h2 {
-            font-size: 6vw;
+            font-size: 6.25vw;
         }
         h1 {
-            font-size: 6vw;
+            font-size: 6.75vw;
+        }
+        a {
+            bottom: 55px;
         }
     }
 }
