@@ -1,0 +1,455 @@
+
+@media only screen and (max-width: 1366px) {
+	
+	.hero-2 .subtitle {
+		transform: scale(0.85);
+		transform-origin: left;
+	}
+	
+}
+
+@media only screen and (max-width: 1200px) {
+	
+	.hero-1 .description {
+		font-size: 2vw;
+		width: 60vw;
+	}
+	
+	.tiles .tile .button {
+		transform: scale(0.7);
+		transform-origin: left;
+	}
+	
+	.hero-2 .subtitle {
+		transform: scale(0.7);
+	}
+	.hero-2 .description {
+		font-size: 1.75vw;
+		width: 56vw;
+	}
+	
+	.banner .background .excerpt {
+		width: 22.5vw;
+	}
+	.banner .background .excerpt .meta {
+		font-size: 1.52vw;
+	}
+	.banner .background .excerpt .description {
+		font-size: 1.44vw;
+	}
+	.banner .background .excerpt .button {
+		transform: scale(0.7);
+		transform-origin: left;
+	}
+	.banner .text {
+		margin-top: -8.56vw;
+	}
+	.banner .text .subtitle {
+		font-size: 4.88vw;
+	}
+	.banner .text .web .lines .line.l_1 {
+		top: 10.6vw;
+		width: 30vw;
+	}
+	.banner .text .author,
+	.banner .text .title {
+		font-size: 5.6vw;
+		line-height: 5.36vw;
+	}
+	.banner .text .button {
+		transform: scale(0.7);
+		transform-origin: top right;
+	}
+	
+	.imagetext .canvas .web .lines .line.l_1 {
+		bottom: 194px;
+		width: 29vw;
+	}
+	.imagetext .canvas .title {
+		font-size: 2.5vw;
+		line-height: 3.5vw;
+		bottom: 180px;
+		width: 44vw;
+	}
+	.imagetext .canvas .arrow {
+		transform: scale(0.7);
+		transform-origin: bottom left;
+		bottom: 60px;
+	}
+	.imagetext .footer {
+		margin-top: -60px;
+	}
+	.imagetext .footer .arrow {
+		transform: scale(0.7);
+		transform-origin: top left;
+	}
+	.imagetext .footer a.cta {
+		margin-left: 37px;
+		top: 80px;
+	}
+	
+}
+
+@media only screen and (max-width: 960px) {
+	
+	.hero-1 .button {
+		transform: scale(0.7);
+		transform-origin: top left;
+	}
+	
+	.tiles::after {
+		display: none;
+	}
+	.tiles .tile {
+		width: 50%;
+	}
+	.tiles .tile:nth-child(3n+2),
+	.tiles .tile:nth-child(3n)   { order: 1; }
+	.tiles .tile:nth-child(2n)   { order: 2; }
+	.tiles .tile:nth-child(2) { margin-top: 2.7vw; }
+	.tiles .tile:nth-child(3) { margin-top: 0; }
+	.tiles .tile .image {
+		margin-bottom: 1.5vw;
+	}
+	.tiles .tile .image .meta{
+		top: 2.6vw;
+		padding: 1.7vw 2vw;
+		font-size: 2.2vw;
+	}
+	.tiles .tile .author,
+	.tiles .tile .title {
+		font-size: 3.15vw;
+	}
+	.tiles .tile .button {
+		transform: scale(1);
+		margin: 1vw 0;
+	}
+	
+	.imagetext .canvas .web .lines .line.l_1 {
+		bottom: 161px;
+	}
+	.imagetext .canvas .title {
+		bottom: 150px;
+	}
+	.imagetext .canvas .arrow {
+		height: 70px;
+	}
+	
+}
+
+@media only screen and (max-width: 720px) {
+	
+	.web .lines .line.thin   { height: 2.25em; }
+	.web .lines .line.medium { height: 3em; }
+	.web .lines .line.thick  { height: 7.5em; }
+	
+	.hero-1 {
+		margin: 10.5vw 8vw 3vw;
+		width: auto;
+	}
+	.hero-1 .web .lines .line.l_1 {
+		transform: translate(-46%, -50%) skew(0deg, 9.5deg);
+	}
+	.hero-1 .web .lines .line.l_2 {
+		transform: translate(-47%, -200%) skew(0deg, -16deg);
+	}
+	.hero-1 .web .lines .line.l_3 {
+		transform: translate(-36%, -50%) skew(0deg, -7.5deg);
+	}
+	.hero-1 .title {
+		font-size: 12vw;
+		line-height: 10.8vw;
+		width: 72vw;
+		margin-bottom: 5vw;
+	}
+	.hero-1 .description {
+		font-size: 3vw;
+		width: 84vw;
+		margin-bottom: 5vw;
+	}
+	.hero-1 .button {
+		transform: scale(1);
+	}
+		
+	.hero-2 {
+		margin: 16vw 8vw 20vw;
+		width: auto;
+	}
+	.hero-2 .title {
+		text-align: left;
+		font-size: 13.3vw;
+		margin-bottom: 6vw;
+	}
+	.hero-2 .middle {
+		width: 100%;
+		padding: 0 2vw;
+		box-sizing: border-box;
+	}
+	.hero-2 .subtitle {
+		transform: scale(0.85);
+	}
+	.hero-2 .description {
+		font-size: 2.8vw;
+		width: 100%;
+	}
+	
+	.banner {
+		margin-bottom: 8vw;
+	}
+	.banner .background {
+		border-right-width: 8vw;
+		min-height: 39vh;
+	}
+	.banner .background::before {
+		width: 8vw;
+	}
+	.banner .background .excerpt .button {
+		display: none;
+	}
+	.banner .text {
+		margin-top: -12.84vw;
+		padding: 0 8vw;
+	}
+	.banner .text .subtitle {
+		font-size: 7.32vw;
+	}
+	.banner .text .web .lines .line.l_1 {
+		top: 15.6vw;
+		width: 48vw;
+	}
+	.banner .text .author,
+	.banner .text .title {
+		font-size: 8.4vw;
+		line-height: 8.04vw;
+	}
+	.banner .text .excerpt {
+		padding: 4vw 0 0 41%;
+		text-align: right;
+		z-index: 333;
+	}
+	.banner .text .excerpt .meta {
+		font-size: 2.73vw;
+		font-weight: 700;
+		margin-bottom: 1.8vw;
+	}
+	.banner .text .excerpt .meta .author,
+	.banner .text .excerpt .meta .connector,
+	.banner .text .excerpt .button {
+		display: none;
+	}
+	.banner .text .excerpt .description {
+		font-size: 2.59vw;
+	}
+	.banner .text .button {
+		transform: scale(0.85);
+	}
+	
+	.imagetext .canvas .web .lines .line.l_1 {
+		bottom: 138px;
+	}
+	.imagetext .canvas .title {
+		bottom: 130px;
+	}
+	.imagetext .footer .cta {
+		transform: scale(1.3);
+		transform-origin: top left;
+	}
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.hero-1 {
+		margin: 20vw 8vw 10vw;
+	}
+	.hero-1 .title {
+		margin-bottom: 8vw;
+	}
+	.hero-1 .description {
+		font-size: 4vw;
+		margin-bottom: 8vw;
+	}
+	
+	.tiles {
+		padding: 0;
+	}
+	.tiles::before {
+		display: none;
+	}
+	.tiles .tile {
+		width: 100%;
+		padding: 4vw 8vw;
+	}
+	.tiles .tile:nth-child(2n)   { order: 1; }
+	.tiles .tile:nth-child(2) { margin-top: 0; }
+	.tiles .tile .image {
+		margin-bottom: 3vw;
+	}
+	.tiles .tile .image .meta{
+		top: 3.9vw;
+		padding: 2.55vw 3vw;
+		font-size: 3.3vw;
+	}
+	.tiles .tile .author,
+	.tiles .tile .title {
+		font-size: 5vw;
+	}
+	.tiles .tile .button {
+		transform: scale(1);
+		margin: 2vw 0;
+	}
+	
+	.hero-2 .title {
+		margin-bottom: 7vw;
+	}
+	.hero-2 .description {
+		font-size: 4vw;
+	}
+	
+	.banner .text .subtitle {
+		font-size: 8.24vw;
+	}
+	.banner .text .web .lines .line.l_1 {
+		top: 17.7vw;
+		width: 55vw;
+	}
+	.banner .text .author,
+	.banner .text .title {
+		font-size: 9.45vw;
+		line-height: 9.05vw;
+	}
+	.banner .text .excerpt {
+		padding-left: 20%;
+	}
+	.banner .text .excerpt .meta {
+		font-size: 3.55vw;
+	}
+	.banner .text .excerpt .description {
+		font-size: 3.45vw;
+	}
+	
+	.imagetext .canvas {
+		background: none;
+		display: block;
+	}
+	.imagetext .canvas img {
+		width: 100%;
+		margin-top: 0;
+		display: block;
+	}
+	.imagetext .canvas .web .lines {
+		background: #4e7ffa;
+	}
+	.imagetext .canvas .web .lines .line.l_1 {
+		bottom: 214px;
+		width: 51.5vw;
+		left: 9vw;
+	}
+	.imagetext .canvas .title {
+		position: relative;
+		bottom: unset;
+		width: 100%;
+		font-size: 4.5vw;
+		line-height: 5.6vw;
+		left: unset;
+		padding: 80px 10vw 200px;
+		box-sizing: border-box;
+	}
+	.imagetext .canvas .arrow {
+		height: 100px;
+		width: 210px;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%, 0);
+		text-align: left;
+	}
+	.imagetext .footer {
+		margin-top: 0;
+		padding: 122px 4vw 8vw;
+		box-sizing: border-box;
+		min-height: unset;
+		text-align: center;
+	}
+	.imagetext .footer .arrow {
+		width: 210px;
+		left: 50%;
+		transform: translate(-50%, 0);
+		text-align: left;
+	}
+	.imagetext .footer a.cta {
+		position: relative;
+		left: unset;
+		top: unset;
+		margin: 0 auto 10vw;
+		display: table;
+		text-align: left;
+		transform: unset;
+	}
+	.imagetext .footer a.cta .href-text {
+		font-size: 6.8vw;
+		line-height: 6vw;
+	}
+	.imagetext .footer a.cta .href-text-alt {
+		font-size: 2.6vw;
+	}
+	.imagetext .footer a.logo {
+		position: relative;
+		bottom: unset;
+		right: unset;
+		margin: 0 auto 4vw;
+		display: table;
+		transform: unset;
+	}
+	.imagetext .footer a.logo img {
+		height: 16vw;
+	}
+	
+}
+
+@media only screen and (max-width: 400px) {
+	
+	.hero-1 .button {
+		transform: scale(0.7);
+	}
+	
+	.hero-2 .title {
+		margin-bottom: 8vw;
+	}
+	.hero-2 .subtitle {
+		transform: scale(0.6);
+	}
+	
+	.banner .text .button {
+		transform: scale(0.7);
+	}
+	
+	.imagetext .canvas .web .lines .line.l_1 {
+		bottom: 159px;
+	}
+	.imagetext .canvas .title {
+		padding-bottom: 150px;
+	}
+	.imagetext .canvas .arrow {
+		transform: translate(-50%, 0) scale(0.7);
+		transform-origin: bottom center;
+	}
+	.imagetext .footer {
+		padding-top: 90px;
+	}
+	.imagetext .footer .arrow {
+		transform: translate(-50%, 0) scale(0.7);
+		transform-origin: top center;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
