@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "imagemin": "node scripts/imagemin.js"
   },
   "dependencies": {
     "next": "latest",
@@ -12,9 +13,10 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^6.0.0",
     "postcss-flexbugs-fixes": "4.2.1",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.7.4"
-  },
-  "license": "MIT"
+  }
 }
