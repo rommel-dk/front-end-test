@@ -20,5 +20,5 @@ Returns Promise<object[]> in the format {data: Buffer, sourcePath: string, desti
     }
   }).catch(err => {
     console.log(err)
-  });
+  })
 })()
