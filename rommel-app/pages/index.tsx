@@ -5,7 +5,9 @@ export default function HomePage () {
   return (
     <div>
       {data.tiles && data.tiles.map((tile, index) =>
-        <Tile props={tile} key={index} />
+        <Tile image={tile.image}
+              image-alt={tile['image-alt']}
+              key={index} />
       )}
     </div>
   )

@@ -1,4 +1,7 @@
-import { ImageInterface } from '../interfaces'
+type ImageInterface = {
+  src: string
+  alt: string
+}
 
 const Image = ({ src, alt }: ImageInterface) => {
   const fileName = src.substring(src.lastIndexOf('/')+1);
