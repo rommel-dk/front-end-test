@@ -1,14 +1,12 @@
-import Nav from '../components/nav'
+import Tile from '../components/tile'
+import data from '../public/data.json'
 
-export default function IndexPage () {
+export default function HomePage () {
   return (
     <div>
-      <Nav />
-      <div className='py-20'>
-        <h1 className='text-5xl text-center text-accent-1'>
-          Next.js + Tailwind CSS
-        </h1>
-      </div>
+      {data.tiles && data.tiles.map((tile, index) =>
+        <Tile props={tile} key={index} />
+      )}
     </div>
   )
 }
