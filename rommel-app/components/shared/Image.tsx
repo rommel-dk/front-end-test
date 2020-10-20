@@ -1,7 +1,6 @@
-const Image = ({
-  src,
-  alt
-}) => {
+import { ImageInterface } from '../interfaces'
+
+const Image = ({ src, alt }: ImageInterface) => {
   const fileName = src.substring(src.lastIndexOf('/')+1);
   const fileNameNoExtension = fileName.replace(/\.[^/.]+$/, '')
   
