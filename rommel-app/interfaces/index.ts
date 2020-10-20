@@ -4,7 +4,7 @@ export type TileInterface = {
   'image-alt': string
   date: string
   author: string
-  'author-href': string
+  'author-href'?: string
   type: string
   href: string
   appearances: AppearancesInterface

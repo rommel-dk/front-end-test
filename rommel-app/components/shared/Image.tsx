@@ -3,6 +3,9 @@ type ImageInterface = {
   alt: string
 }
 
+/**
+ * Displays images in next gen format from local assets.
+ */
 const Image = ({ src, alt }: ImageInterface) => {
   const fileName = src.substring(src.lastIndexOf('/')+1);
   const fileNameNoExtension = fileName.replace(/\.[^/.]+$/, '')

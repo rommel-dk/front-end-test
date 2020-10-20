@@ -5,8 +5,15 @@ export default function HomePage () {
   return (
     <div>
       {data.tiles && data.tiles.map((tile, index) =>
-        <Tile image={tile.image}
+        <Tile title={tile.title}
+              image={tile.image}
               image-alt={tile['image-alt']}
+              date={tile.date}
+              author={tile.author}
+              author-href={tile['author-href']}
+              type={tile.type}
+              href={tile.href}
+              appearances={tile.appearances}
               key={index} />
       )}
     </div>
