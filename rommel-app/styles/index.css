@@ -1,18 +1,26 @@
 @tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
-
-/* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue text-white font-bold py-2 px-4 rounded;
-}
-
-/* Start purging... */
 @tailwind utilities;
-/* Stop purging. */
 
-/* Your own custom utilities */
+@layer base {
+  @font-face {
+    font-family: Articulat;
+    font-weight: 500;
+    src: url(/fonts/ArticulatCF-Medium.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: Articulat;
+    font-weight: 600;
+    src: url(/fonts/ArticulatCFv2-DemiBold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: Articulat;
+    font-weight: 700;
+    src: url(/fonts/ArticulatCFv2-Bold.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: Articulat;
+    font-weight: 800;
+    src: url(/fonts/ArticulatCF-ExtraBoldOblique.ttf) format('truetype');
+  }
+}

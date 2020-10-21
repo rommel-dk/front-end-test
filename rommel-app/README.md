@@ -7,7 +7,6 @@
 
 ## Scripts
 `npm run imagemin` - Create Webp images script
-`npx standard --fix` - Standardize code
 
 ## Deployment
 `npx next build`

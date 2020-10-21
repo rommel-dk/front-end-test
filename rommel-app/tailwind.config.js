@@ -17,6 +17,9 @@ module.exports = {
       pink: '#DABABA',
       yellow: '#FFF064'
     },
+    fontFamily: {
+      sans: ['Articulat', 'sans-serif']
+    },
     fontSize: {
       xs: px(12),
       sm: px(14),

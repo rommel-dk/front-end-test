@@ -3,7 +3,7 @@ import data from '../public/data.json'
 
 export default function HomePage () {
   return (
-    <div className='md:flex md:flex-wrap p-20'>
+    <div className='md:flex md:flex-wrap p-5 md:p-20'>
       {data.tiles && data.tiles.map((tile, index) =>
         <Tile
           title={tile.title}
