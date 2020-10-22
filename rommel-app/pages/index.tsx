@@ -3,7 +3,7 @@ import data from '../public/data.json'
 
 export default function HomePage () {
   return (
-    <div>
+    <div className="mx-auto container-xl">
       {/* Tiles */}
       <div className='md:flex md:flex-wrap'>
         {data.tiles && data.tiles.map((tile, index) =>
