@@ -24,3 +24,37 @@
     src: url(/fonts/ArticulatCF-ExtraBoldOblique.ttf) format('truetype');
   }
 }
+
+@layer utilities {
+  .arrow {    
+    @apply relative w-24 bg-red;
+    height: 5px;
+  }
+  .arrow:after {
+    @apply absolute right-0 border-solid border-red;
+    content: '';
+    border-width: 0 5px 5px 0;
+    padding: 8px;
+    top: -8px;
+  }
+
+  .arrow-right:after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .arrow-left:after {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .arrow-up:after {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .arrow-down:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}
