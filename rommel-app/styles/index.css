@@ -29,6 +29,10 @@
   .arrow {    
     @apply relative w-20 bg-red;
     height: 5px;
+    transition: width 0.5s;
+  }
+  .tile-title:hover .arrow {
+    @apply w-32;
   }
   .arrow:after {
     @apply absolute right-0 border-solid border-red;

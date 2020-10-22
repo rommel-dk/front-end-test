@@ -4,10 +4,8 @@ import { TileInterface } from '../interfaces'
 
 export default function Tile(props: TileInterface) {
 
-  // Ideally date should be fetched in either
-  // correct format or as a timestamp
   const getDate = (date: string) => {
-    return date.replace(/(\d+)[^.]/, '$1. ');
+    return date.replace(/(\d+)[^.]/, '$1. ')
   }
 
   const colorSchemeClass = props.appearances['color-scheme'] ? 'color-scheme-' + props.appearances['color-scheme'] : ''
@@ -30,11 +28,16 @@ export default function Tile(props: TileInterface) {
           {props.author && !props['author-href'] &&
             <div className="font-semibold text-pink">{props.author}</div>
           }
-          {props.title &&
-            <h2 className="w-full text-3xl font-semibold text-black">{props.title}</h2>
+          {props.title && props.href &&
+            <div className="tile-title">
+              <h2 className="w-full text-3xl font-semibold text-black">
+                <a href={props.href}>{props.title}</a>
+              </h2>
+              <div className="my-5 arrow arrow-right"></div>
+            </div>
           }
-          {props.href &&
-            <div className="my-5 arrow arrow-right"></div>
+          {props.title && !props.href &&
+            <h2 className="w-full text-3xl font-semibold text-black">{props.title}</h2>
           }
         </div>
       </div>
