@@ -7,21 +7,25 @@
     font-family: Articulat;
     font-weight: 500;
     src: url(/fonts/ArticulatCF-Medium.ttf) format('truetype');
+    font-display: swap;
   }
   @font-face {
     font-family: Articulat;
     font-weight: 600;
     src: url(/fonts/ArticulatCFv2-DemiBold.ttf) format('truetype');
+    font-display: swap;
   }
   @font-face {
     font-family: Articulat;
     font-weight: 700;
     src: url(/fonts/ArticulatCFv2-Bold.ttf) format('truetype');
+    font-display: swap;
   }
   @font-face {
     font-family: Articulat;
     font-weight: 800;
     src: url(/fonts/ArticulatCF-ExtraBoldOblique.ttf) format('truetype');
+    font-display: swap;
   }
 }
 

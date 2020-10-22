@@ -1,4 +1,5 @@
 import Image from './shared/Image'
+import Link from "next/link"
 
 import { TileInterface } from '../interfaces'
 
@@ -23,17 +24,20 @@ export default function Tile(props: TileInterface) {
         }
         <div className="text-3xl">
           {props.author && props['author-href'] &&
-            <a href={props['author-href']} className="font-semibold text-pink">{props.author}</a>
+            <Link href={props['author-href']}>
+              <a href={props['author-href']} className="font-semibold text-pink">{props.author}</a>
+            </Link>
           }
           {props.author && !props['author-href'] &&
             <div className="font-semibold text-pink">{props.author}</div>
           }
           {props.title && props.href &&
             <div className="tile-title">
-              <h2 className="w-full text-3xl font-semibold text-black">
-                <a href={props.href}>{props.title}</a>
-              </h2>
-              <div className="my-5 arrow arrow-right"></div>
+              <Link href={props.href}>
+                <h2 className="w-full text-3xl font-semibold text-black">
+                  <a href={props.href}>{props.title}<span className="block my-5 arrow arrow-right"></span></a>
+                </h2>
+              </Link>
             </div>
           }
           {props.title && !props.href &&
