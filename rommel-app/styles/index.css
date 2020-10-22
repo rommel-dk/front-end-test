@@ -27,7 +27,7 @@
 
 @layer utilities {
   .arrow {    
-    @apply relative w-24 bg-red;
+    @apply relative w-20 bg-red;
     height: 5px;
   }
   .arrow:after {

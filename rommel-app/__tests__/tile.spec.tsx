@@ -2,21 +2,22 @@ import * as React from 'react'
 import {shallow} from 'enzyme'
 import Tile from '../components/Tile'
 
+let tile = {
+  "title": "I Imagined that Things Were Speaking",
+  "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-1.jpg",
+  "image-alt": "I Imagined that Things Were Speaking",
+  "date": "29 August 2019",
+  "author": "Jams Bonham",
+  "author-href": "#",
+  "type": "Project",
+  "href": "#",
+  "appearances": {
+    "color-scheme": "alt"
+  }
+}
+
 describe('Components', () => {
   describe('Tile', () => {
-    let tile = {
-      "title": "I Imagined that Things Were Speaking",
-      "image": "https://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/images/tiles-image-1.jpg",
-      "image-alt": "I Imagined that Things Were Speaking",
-      "date": "29 August 2019",
-      "author": "Jams Bonham",
-      "author-href": "#",
-      "type": "Project",
-      "href": "#",
-      "appearances": {
-        "color-scheme": "alt"
-      }
-    }
     it('should convert date to expected format', function () {
       const wrap = shallow(
         <Tile
