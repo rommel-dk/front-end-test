@@ -1,9 +1,18 @@
 import Head from 'next/head'
+import { GetStaticProps } from 'next'
 import Tile from '../components/Tile'
 
-import data from '../public/data.json'
+export const getStaticProps: GetStaticProps = async (_ctx) => {
+  const res = await fetch('http://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/data.json')
+  const data = await res.json()
+  return {
+    props: {
+      data
+    }
+  }
+}
 
-export default function HomePage (): JSX.Element {
+export default function HomePage ({ data }): JSX.Element {  
   return (
     <div className="mx-auto container-xl">
       <Head>
