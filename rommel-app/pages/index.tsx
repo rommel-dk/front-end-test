@@ -27,7 +27,7 @@ export default function HomePage ({ data }: { data: any}): JSX.Element {
         href={data['hero-1'].href}
         appearances={data['hero-1'].appearances}
       />
-      {/* Tiles md:flex md:flex-wrap */}
+      {/* Tiles */}
       <div className='grid gap-2 md:gap-4 md:grid-cols-3'>
         {data.tiles && data.tiles.map((tile:TileInterface) =>
           <Tile
