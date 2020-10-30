@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { GetStaticProps } from 'next'
+import Hero from '../components/Hero'
 import Tile from '../components/Tile'
+import { TileInterface } from '../interfaces'
 
 export const getStaticProps: GetStaticProps = async (_ctx) => {
   const res = await fetch('http://raw.githubusercontent.com/rommel-dk/front-end-test/master/assignment-assets/data.json')
@@ -19,9 +21,15 @@ export default function HomePage ({ data }: { data: any}): JSX.Element {
         <title>Assignment</title>
         <link rel="icon" href="/images/logo/logo.svg" />
       </Head>
-      {/* Tiles */}
-      <div className='md:flex md:flex-wrap'>
-        {data.tiles && data.tiles.map((tile, index) =>
+      <Hero
+        title={data['hero-1'].title}
+        description={data['hero-1'].description}
+        href={data['hero-1'].href}
+        appearances={data['hero-1'].appearances}
+      />
+      {/* Tiles md:flex md:flex-wrap */}
+      <div className='grid gap-2 md:gap-4 md:grid-cols-3'>
+        {data.tiles && data.tiles.map((tile:TileInterface) =>
           <Tile
             title={tile.title}
             image={tile.image}
@@ -32,7 +40,6 @@ export default function HomePage ({ data }: { data: any}): JSX.Element {
             type={tile.type}
             href={tile.href}
             appearances={tile.appearances}
-            key={index}
           />
         )}
       </div>
