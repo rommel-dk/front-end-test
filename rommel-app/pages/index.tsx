@@ -12,7 +12,7 @@ export const getStaticProps: GetStaticProps = async (_ctx) => {
   }
 }
 
-export default function HomePage ({ data }): JSX.Element {  
+export default function HomePage ({ data }: { data: any}): JSX.Element {  
   return (
     <div className="mx-auto container-xl">
       <Head>
