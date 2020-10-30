@@ -10,6 +10,13 @@ export type TileInterface = {
   appearances: AppearancesInterface
 }
 
+export type HeroInterface = {
+  title: string
+  description: string
+  href: string
+  appearances: AppearancesInterface
+}
+
 export type AppearancesInterface = {
   'inner-width'?: string
   'href-block'?: string
