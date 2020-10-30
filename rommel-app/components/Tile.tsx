@@ -12,7 +12,7 @@ export default function Tile(props: TileInterface) {
   const colorSchemeClass = props.appearances['color-scheme'] ? 'color-scheme-' + props.appearances['color-scheme'] : ''
 
   return (
-    <div className="flex items-start justify-center p-3 my-20 md:w-1/3 md:p-5">
+    <div className="flex items-start justify-center p-3 md:p-5">
       <div className={'relative flex flex-wrap max-w-380 ' + colorSchemeClass}>
         {props.image &&
           <div className="mb-3">
