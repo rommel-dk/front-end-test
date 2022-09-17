@@ -3,7 +3,7 @@
 
 Hello! And Welcome!
 
-This assignment is a way for us to assess that you're able to translate design into code and how you would normally structure your code and is part of our [job posting on The Hub](https://thehub.io/jobs/5f3e92784b57fc757f36b3f4).
+This assignment is a way for us to assess that you're able to translate design into code and how you would normally structure your code.
 
 ## The assignment
 
@@ -24,10 +24,11 @@ The base requirements are simple: create a HTML/CSS version of the design follow
 
 We would love to see that you're capable of some of the following skills:
 
-* Building components with React JS
+* Leverage WordPress
+* Building reusable components
+* Keep the code simple with a component based structure
 * Animations where you deem it relevant
 * Running git commits (so not just one at the end saying "initial commit")
-* Cross-browser support (sadly IE11 is still haunting our daily lives)
 * Component tests (Ex: Jest)
 * No use of 3. party HTML/CSS grid or component frameworks
 * _Your own creativity**_
