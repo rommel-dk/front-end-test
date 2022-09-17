@@ -15,7 +15,7 @@ Feel free to still do the assignment even though you do not have the time to com
 
 ### Requirements
 
-The base requirements are simple: create a HTML/CSS version of the design following the Mobile First methodology.
+The base requirements are simple: Translate the design into a WordPress front-page using HTML/CSS/WordPress.
 
 * Responsive and Mobile First
 * Make a pull request with your results to this repository.
@@ -24,7 +24,7 @@ The base requirements are simple: create a HTML/CSS version of the design follow
 
 We would love to see that you're capable of some of the following skills:
 
-* Leverage WordPress
+* Mobile First methodology
 * Building reusable components
 * Keep the code simple with a component based structure
 * Animations where you deem it relevant
@@ -37,4 +37,4 @@ _** Feel free to display your own creativity in the assignment. An example of th
 
 ### Skip the line
 
-_*You can skip the line and go straight to an interview if you're able to re-create the design in a WordPress website using React based Gutenberg blocks (red: not ACF blocks or similar) while maintaning a good structure and pretty code.*_
+_*You can skip the line and go straight to an interview if you're able to re-create the design in a WordPress website using React based Gutenberg blocks (or ACF blocks) while maintaning a good structure and pretty code.*_
