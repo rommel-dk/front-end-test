@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Articulat;
+    font-weight: 500;
+    src: url(/fonts/ArticulatCF-Medium.ttf) format('truetype');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Articulat;
+    font-weight: 600;
+    src: url(/fonts/ArticulatCFv2-DemiBold.ttf) format('truetype');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Articulat;
+    font-weight: 700;
+    src: url(/fonts/ArticulatCFv2-Bold.ttf) format('truetype');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: Articulat;
+    font-weight: 800;
+    src: url(/fonts/ArticulatCF-ExtraBoldOblique.ttf) format('truetype');
+    font-display: swap;
+  }
+}
+
+@layer utilities {
+  .arrow {    
+    @apply relative w-20 bg-red;
+    height: 5px;
+    transition: width 0.5s;
+  }
+  .tile-title:hover .arrow {
+    @apply w-32;
+  }
+  .arrow:after {
+    @apply absolute right-0 border-solid border-red;
+    content: '';
+    border-width: 0 5px 5px 0;
+    padding: 8px;
+    top: -8px;
+  }
+
+  .arrow-right:after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .arrow-left:after {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .arrow-up:after {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .arrow-down:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}
