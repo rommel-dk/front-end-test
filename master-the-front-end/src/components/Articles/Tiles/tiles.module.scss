@@ -1,0 +1,40 @@
+.article {
+    margin: 1.5em;
+    display: grid;
+    grid-gap: 3.5em;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+// Mobile in Landscape Mode
+@media only screen and (max-width: 1023px) and (orientation: landscape) {
+    .article {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 1.5em 1.5em;
+    }
+}
+
+// Tablet in Portrait Mode
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .article {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1.5em 1.75em;
+    }
+}
+
+// Tablet in Landscape Mode
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+    .article {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1.5em 1.75em;
+    }
+}
+
+// Laptop
+@media only screen and (min-width: 1280px) {
+    .article {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 3.5em 3.5em;
+    }
+}

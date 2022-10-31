@@ -1,0 +1,38 @@
+@import '../../../../assets/styles/includes/_colors.scss';
+@import '../../../../assets/styles/includes/_vars.scss';
+.tile {
+    position: relative;
+    width: 100%;
+    font-family: "Articulat CF v2 Demi Bold";
+    img {
+        width: 100%;
+    }
+    p {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-color: white;
+        padding: 1em;
+    }
+    h1 {
+        font-size: 1.625em;
+    }
+    h2 {
+        font-size: 1.5em;
+        color: $alt-color;
+    }
+}
+
+.arrow_right_small {
+    width: $fa-arrow-small_size;
+}
+
+// Laptop
+@media only screen and (min-width: 1280px) {
+    h1 {
+        font-size: 2.125vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+}
